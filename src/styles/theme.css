@@ -1,40 +1,48 @@
 /* =============================================================
-   Theme: the budget.bettergov.ph tokens, so every portal reads as
-   part of the same family. Change the accent here if a fork must,
-   but keep the type roles.
+   Theme: Bukas Pasay.
 
-   Republic of the Philippines brand guidelines, section 04:
-   "Figtree speaks. Inter works. Mono labels."
+   Rose is the city's colour on this portal. One typeface,
+   Atkinson Hyperlegible Next, made by the Braille Institute for
+   readers with low vision: the portal is for every resident, not
+   for budget analysts. Body text is 17px for the same reason.
+
+   Token names are kept from the upstream portal so its CSS still
+   applies; only their values change.
    ============================================================= */
 
 :root {
   /* Paper and ink */
   --paper: #ffffff;
-  --paper-2: #f4f7fc;
-  --paper-3: #eceef2;
-  --rule: #d4d8e0;
-  --rule-soft: #e7eaef;
-  --ink: #11151c;
-  --ink-2: #2b3340;
-  --ink-3: #5b6373;
-  --ink-mute: #8a92a1;
+  --paper-2: #fbf5f7;       /* rose-tinted wash for quiet panels */
+  --paper-3: #f3e8ec;
+  --rule: #e4d3da;
+  --rule-soft: #f0e4e9;
+  --ink: #2b1a22;           /* plum-black, never pure #000 */
+  --ink-2: #4a3640;
+  --ink-3: #6e5a63;         /* 6.35:1 on white: still body-legible */
+  --ink-mute: #8f7c84;      /* 3.9:1: decoration only, never the sole carrier of meaning */
 
-  /* Accents */
-  --accent: #0b4fd9;        /* BetterGov blue */
-  --accent-deep: #0a44bd;
-  --accent-soft: #e8efff;
-  --positive: #3a6b3a;
-  --negative: #b8341f;
+  /* Rose */
+  --accent: #c2255c;        /* main: 5.66:1 on white, and white on it */
+  --accent-deep: #9e1c4b;   /* links, and text on soft rose: 6.72:1 */
+  --accent-soft: #fcebf1;
+
+  /* Change: up is green, down is burnt orange, so a cut never reads as the brand colour. */
+  --positive: #2f7a4f;
+  --negative: #b4500f;
   --neutral: #8a7c5a;
 
-  /* Type roles */
-  --font-hero: "Figtree", "Manrope", -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
-  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  /* Type: one family. The three role names stay so upstream rules still resolve. */
+  --font-hero: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", system-ui, sans-serif;
+  --font-body: var(--font-hero);
+  --font-mono: var(--font-hero);
 
   /* Layout */
-  --page: 1280px;
+  --page: 1120px;
   --gutter: 32px;
+  --radius-panel: 18px;     /* the answer panels */
+  --radius-control: 10px;   /* inputs, buttons, cards */
+  --radius-chip: 999px;     /* status chips and tags */
 }
 
 * { box-sizing: border-box; }
@@ -45,29 +53,30 @@ html, body {
   background: var(--paper);
   color: var(--ink);
   font-family: var(--font-body);
-  font-size: 15px;
-  line-height: 1.5;
-  font-feature-settings: "ss01", "cv11", "tnum";
+  font-size: 17px;
+  line-height: 1.6;
+  font-variant-numeric: tabular-nums;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
 #root { min-height: 100svh; display: flex; flex-direction: column; }
 
-a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
-a:hover { color: var(--accent-deep); }
+a { color: var(--accent-deep); text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+a:hover { color: var(--accent); }
 
 button, input, select { font: inherit; color: inherit; }
 button { cursor: pointer; }
 
-:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
 
 h1, h2, h3 {
   font-family: var(--font-hero);
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  line-height: 1.12;
+  font-weight: 800;
+  letter-spacing: -0.015em;
+  line-height: 1.15;
   margin: 0;
+  text-wrap: balance;
 }
 
 .sr-only {
@@ -75,22 +84,17 @@ h1, h2, h3 {
   overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
 }
 
-/* Mono labels: metadata only, never sentences. */
+/* Small context lines: sentence case, never tracked-out capitals. */
 .eyebrow {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin: 0 0 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--accent-deep);
+  margin: 0 0 8px;
 }
 .eyebrow .sep { color: var(--ink-mute); padding: 0 6px; }
 .label {
-  font-family: var(--font-mono);
-  font-size: 10.5px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
   color: var(--ink-3);
 }
 .num { font-variant-numeric: tabular-nums; white-space: nowrap; }
