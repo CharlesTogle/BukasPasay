@@ -40,3 +40,10 @@ export const GROUPS: Record<BridgeGroup, { label: string; sub: string; help: str
     help: 'Parehong kalsada ang nasa dalawang bersyon, pero magkaibang bahagi nito. Hindi maikukumpara ang halaga, kaya hindi ito isinama sa mga dinagdagan o binawasan.',
   },
 };
+
+/** An office's tier in Tagalog: A serves one district alone; B shares its money with others, unsplit. */
+export function tierText(office: { tier: 'A' | 'B'; co_served_districts: unknown[] }): string {
+  if (office.tier === 'A') return 'Para sa iisang distrito';
+  const others = office.co_served_districts.length;
+  return others > 0 ? `May kahating ${others} pang distrito; hindi hinahati ang pera` : 'May kahating distrito; hindi hinahati ang pera';
+}
