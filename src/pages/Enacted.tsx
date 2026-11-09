@@ -11,12 +11,12 @@ import type { DistrictCard, DistrictOffice, Envelope } from '../api/types';
 import { GAA_YEARS } from '../api/types';
 import { shortNameOf } from '../config';
 import { Await, Disclaimers, External } from '../components/Bits';
-import { PageHead } from '../components/Chrome';
 import { downloadText } from '../lib/csv';
-import { count, php, phpFull, plural } from '../lib/format';
+import { bilang, count, php, phpFull, piso } from '../lib/format';
 import { departmentShort, gaaCsv, gaaYearTotals, hasYear, loadGaa, type GaaResult, type GaaRow } from '../lib/gaa';
 import { usePortal, type Async } from '../lib/portal-context';
 import { useTitle } from '../lib/use-title';
+import { tierText } from '../lib/salita';
 
 const PAGE = 100;
 const FIRST = GAA_YEARS[0];
@@ -25,7 +25,7 @@ const LAST = GAA_YEARS[GAA_YEARS.length - 1];
 export default function Enacted() {
   const { config, client, districts } = usePortal();
   const name = shortNameOf(config);
-  useTitle(`Enacted budgets ${FIRST}–${LAST} · ${name}`);
+  useTitle(`Badyet ${FIRST}–${LAST} · ${name}`);
   const places = config.scope.places ?? [];
 
   const [progress, setProgress] = useState<{ done: number; total: number } | null>(null);
@@ -52,53 +52,53 @@ export default function Enacted() {
   const placeList = places.map((p) => p.label).join(', ');
   return (
     <main className="page main">
-      <PageHead
-        eyebrow={<>GAA<span className="sep">·</span>FY {FIRST}–{LAST}<span className="sep">·</span>{name}</>}
-        title={
-          state.status === 'ready'
-            ? `${plural(state.value.rows.length, 'program and project', 'programs and projects')} in the ${FIRST}–${LAST} budgets name ${placeList}`
-            : `${name} in the enacted budgets, ${FIRST}–${LAST}`
-        }
-      >
-        <p>
-          The General Appropriations Act (GAA) is the budget Congress passes and the President signs each year: the authority to
-          spend, not the money spent. These are the budgets for {FIRST} to {LAST}; the 2027 budget is still a bill.
+      <p className="eyebrow">Pera ng Nasyonal sa {placeList || name}</p>
+      <section className="answer answer-hero" aria-labelledby="enacted-h">
+        <h1 id="enacted-h" className="answer-q">Ano ang inaprubahan para sa {placeList || name} mula {FIRST} hanggang {LAST}?</h1>
+        <p className="answer-a">
+          {state.status === 'ready'
+            ? `${bilang(state.value.rows.length, 'programa at proyekto')} ang bumabanggit sa ${placeList}.`
+            : `Ang mga aprubadong badyet ng ${FIRST} hanggang ${LAST}.`}
         </p>
-      </PageHead>
+        <p>
+          Ang General Appropriations Act (GAA) ang badyet na ipinapasa ng Kongreso at pinipirmahan ng Pangulo bawat taon. Ito ang
+          pahintulot na gumastos, hindi ang perang aktwal na nagastos. Panukala pa lang ang badyet ng 2027.
+        </p>
+      </section>
 
       <OfficeHistories />
 
       {places.length === 0 ? (
         <p className="fine section-gap">
-          This portal follows DPWH offices only. The enacted budgets list projects by name, not by office, so only each office’s
-          yearly total is shown here.
+          Mga opisina ng DPWH lang ang sinusundan ng portal na ito. Nakalista ang mga proyekto sa aprubadong badyet ayon sa
+          pangalan, hindi sa opisina, kaya ang kabuuan lang ng bawat opisina bawat taon ang makikita rito.
         </p>
       ) : state.status === 'loading' ? (
         <div className="state" role="status">
-          <span className="spinner" aria-hidden="true" /> Searching every department’s programs for {placeList}
-          {progress && progress.total > 0 && <> · {count(progress.done)} of {count(progress.total)}</>}…
+          <span className="spinner" aria-hidden="true" /> Hinahanap ang {placeList} sa mga programa ng bawat departamento
+          {progress && progress.total > 0 && <> ({count(progress.done)} sa {count(progress.total)})</>}…
         </div>
       ) : state.status === 'error' ? (
         <div className="state state-error" role="alert">
-          <p><strong>Could not load the enacted budgets.</strong> {state.error.message}</p>
-          <button type="button" className="button" onClick={() => { setState({ status: 'loading' }); setAttempt((n) => n + 1); }}>Try again</button>
+          <p><strong>Hindi makuha ang mga aprubadong badyet.</strong> Baka mabagal o putol ang koneksiyon. <span lang="en">({state.error.message})</span></p>
+          <button type="button" className="button" onClick={() => { setState({ status: 'loading' }); setAttempt((n) => n + 1); }}>Subukang muli</button>
         </div>
       ) : (
         <Programs result={state.value} placeList={placeList} />
       )}
 
       <section className="section" aria-labelledby="gaa-notes-h">
-        <h2 id="gaa-notes-h" className="section-h">Reading these figures</h2>
+        <h2 id="gaa-notes-h" className="section-h">Paano basahin ang mga numerong ito</h2>
         <ul className="plain-list fine-list">
-          <li>Amounts are the appropriations in each year’s GAA, in pesos. The GAA publishes them in thousands.</li>
+          <li>Ang mga halaga ay ang inaprubahan sa GAA ng bawat taon, sa piso. Nasa libo-libo ang pagkakasulat nito sa GAA.</li>
           {places.length > 0 && (
             <>
-              <li>A program is listed when its name includes {placeList}. Names are matched, not places surveyed; a project whose name does not say where it is will not be here.</li>
-              <li>One row is one name in one agency across the years. A renamed or re-scoped project shows as a new row. A dash means no appropriation under that name that year.</li>
+              <li>Nakalista ang isang programa kapag nasa pangalan nito ang {placeList}. Pangalan ang tinitingnan, hindi ang aktwal na lugar: kung hindi sinasabi ng pangalan kung nasaan ang proyekto, wala ito rito.</li>
+              <li>Ang isang hilera ay isang pangalan sa isang ahensya sa lahat ng taon. Kapag pinalitan ang pangalan o saklaw, lalabas itong bagong hilera. Ang gitling (—) ay nangangahulugang walang pondo sa pangalang iyon sa taong iyon.</li>
             </>
           )}
-          <li>A DPWH office’s yearly figure is its whole budget, as the GAA lists it under that office. An office that serves several districts is shown whole, never split.</li>
-          <li>The 2027 figures are the NEP and the House bill, not law. They are shown beside the enacted years, never added to them.</li>
+          <li>Ang halaga ng isang opisina ng DPWH bawat taon ay ang buong badyet nito ayon sa GAA. Kapag maraming distrito ang pinaglilingkuran ng opisina, buo itong ipinapakita at hindi hinahati.</li>
+          <li>Ang mga halaga para sa 2027 ay ang mungkahi ng Pangulo at ang bersyon ng Kamara, na hindi pa batas. Katabi lang sila ng mga naaprubahang taon, hindi idinadagdag.</li>
         </ul>
       </section>
     </main>
@@ -113,7 +113,7 @@ function OfficeHistories() {
   const { districts, config } = usePortal();
   if (!config.scope.offices?.length && !config.scope.districts?.length) return null;
   return (
-    <Await state={districts} what="DPWH office budgets">
+    <Await state={districts} what="ang badyet ng mga opisina ng DPWH">
       {(list) => <OfficeHistoryList list={list} />}
     </Await>
   );
@@ -130,12 +130,12 @@ function OfficeHistoryList({ list }: { list: Envelope<DistrictCard>[] }) {
   return (
     <section className="section" aria-labelledby="office-years-h">
       <h2 id="office-years-h" className="section-h">
-        {offices.length === 1 ? 'The DPWH office’s budget, year by year' : `${count(offices.length)} DPWH offices’ budgets, year by year`}
+        Magkano ang badyet ng DPWH dito bawat taon?
       </h2>
       <p className="legend">
-        <span><i className="sw sw-gaa" /> Enacted (GAA), whole office</span>
-        <span><i className="sw sw-nep" /> 2027 NEP, whole office</span>
-        <span><i className="sw sw-house" /> 2027 House bill, named projects only</span>
+        <span><i className="sw sw-gaa" /> Aprubadong badyet (GAA), buong opisina</span>
+        <span><i className="sw sw-nep" /> Mungkahi ng Pangulo para sa 2027, buong opisina</span>
+        <span><i className="sw sw-house" /> Bersyon ng Kamara para sa 2027, mga proyektong may pangalan lang</span>
       </p>
       <div className="hgrid">
         {offices.map((o) => <OfficeHistory key={o.id} office={o} />)}
@@ -146,26 +146,26 @@ function OfficeHistoryList({ list }: { list: Envelope<DistrictCard>[] }) {
 }
 
 /** Three bars each: 2020–22, 2023–25, and 2026 with the two 2027 versions. */
-const CONGRESSES = [{ label: '18th Congress' }, { label: '19th Congress' }, { label: '20th Congress' }];
+const CONGRESSES = [{ label: 'Ika-18 Kongreso' }, { label: 'Ika-19 Kongreso' }, { label: 'Ika-20 Kongreso' }];
 
 function OfficeHistory({ office }: { office: DistrictOffice }) {
   const years = office.years ?? [];
   const slot = (fy: number, stage: string) => years.find((y) => y.fy === fy && y.stage === stage);
   const bars = [
     ...GAA_YEARS.map((fy) => ({ key: `${fy}`, label: String(fy), kind: 'gaa', v: slot(fy, 'gaa') })),
-    { key: '2027-nep', label: 'NEP', kind: 'nep', v: slot(2027, 'nep') },
-    { key: '2027-house', label: 'House', kind: 'house', v: slot(2027, 'hgab3') },
+    { key: '2027-nep', label: 'Pangulo', kind: 'nep', v: slot(2027, 'nep') },
+    { key: '2027-house', label: 'Kamara', kind: 'house', v: slot(2027, 'hgab3') },
   ];
   const max = Math.max(1, ...bars.map((b) => b.v?.php ?? 0));
   return (
     <article className="hcard" id={office.id}>
       <header>
         <h3>DPWH {office.name}</h3>
-        <span className={`tag tier tier-${office.tier}`}>{office.tier_text}</span>
+        <span className={`tag tier tier-${office.tier}`} title={office.tier_text}>{tierText(office)}</span>
       </header>
-      <div className="bars" role="img" aria-label={`Budget by year: ${bars.map((b) => `${b.label} ${b.v?.php != null ? phpFull(b.v.php) : 'not found'}`).join('; ')}`}>
+      <div className="bars" role="img" aria-label={`Badyet bawat taon: ${bars.map((b) => `${b.label} ${b.v?.php != null ? phpFull(b.v.php) : 'wala'}`).join('; ')}`}>
         {bars.map((b) => (
-          <div key={b.key} className={`bar-col k-${b.kind}`} title={b.v?.php != null ? `${b.v.stage_label} ${b.key.slice(0, 4)}: ${phpFull(b.v.php)} (${b.v.scope})` : 'The office was not found that year'}>
+          <div key={b.key} className={`bar-col k-${b.kind}`} title={b.v?.php != null ? `${b.v.stage_label} ${b.key.slice(0, 4)}: ${phpFull(b.v.php)} (${b.v.scope})` : 'Hindi nakita ang opisina sa taong iyon'}>
             <span className="bar-v num">{b.v?.php != null ? php(b.v.php).replace('₱', '') : '—'}</span>
             <span className="bar-track"><span className="bar-fill" style={{ height: `${((b.v?.php ?? 0) / max) * 100}%` }} /></span>
             <span className="bar-x">{b.label}</span>
@@ -176,7 +176,7 @@ function OfficeHistory({ office }: { office: DistrictOffice }) {
         {CONGRESSES.map((c) => <span key={c.label}>{c.label}</span>)}
       </div>
       {office.co_served_districts.length > 0 && (
-        <p className="fine">Whole office, shared with {office.co_served_districts.map((d) => d.label).join('; ')}; not split.</p>
+        <p className="fine">Buong opisina, kahati ang {office.co_served_districts.map((d) => d.label).join('; ')}; hindi hinahati.</p>
       )}
     </article>
   );
@@ -235,8 +235,9 @@ function Programs({ result, placeList }: { result: GaaResult; placeList: string 
   return (
     <>
       <section className="section" aria-labelledby="gaa-years-h">
-        <h2 id="gaa-years-h" className="section-h">By year: the programs that name {placeList}</h2>
-        <div className="ystrip" role="group" aria-label="Pick a year">
+        <h2 id="gaa-years-h" className="section-h">Magkano bawat taon ang mga programang bumabanggit sa {placeList}?</h2>
+        <p className="section-lede">Pindutin ang isang taon para makita ang mga programa nito, mula pinakamalaki.</p>
+        <div className="ystrip" role="group" aria-label="Pumili ng taon">
           {totals.map((t) => (
             <button
               key={t.year}
@@ -247,70 +248,69 @@ function Programs({ result, placeList }: { result: GaaResult; placeList: string 
             >
               <span className="label">{t.year}</span>
               <span className="ybar"><span style={{ height: `${(t.amount / maxTotal) * 100}%` }} /></span>
-              <span className="yv num">{php(t.amount)}</span>
-              <span className="ysub">{plural(t.programs, 'program')} funded</span>
+              <span className="yv num">{piso(t.amount)}</span>
+              <span className="ysub">{bilang(t.programs, 'programa')}</span>
             </button>
           ))}
         </div>
-        <p className="fine">Each year’s total covers only that year’s programs that name {placeList}. Years are shown side by side, not added up.</p>
+        <p className="fine">Ang kabuuan ng bawat taon ay para lang sa mga programang bumabanggit sa {placeList} sa taong iyon. Magkatabi ang mga taon; hindi pinagsasama.</p>
       </section>
 
       <section className="section" id="programs" aria-labelledby="gaa-list-h">
         <div className="list-head">
           <h2 id="gaa-list-h" className="section-h">
-            {narrowed ? `${count(filtered.length)} of ${plural(all.length, 'program')}` : `Every program and project (${count(all.length)})`}
+            {narrowed ? `${count(filtered.length)} sa ${count(all.length)} na programa` : `Ano-ano ang mga programa at proyekto? (${count(all.length)})`}
           </h2>
           <button type="button" className="button button-quiet" onClick={() => downloadText(`${config.id}-gaa-${FIRST}-${LAST}.csv`, gaaCsv(filtered))}>
-            Download CSV{narrowed ? ` (${count(filtered.length)})` : ''}
+            I-download ang CSV{narrowed ? ` (${count(filtered.length)})` : ''}
           </button>
         </div>
         <div className="toolbar">
           <label className="field field-grow">
-            <span className="label">Search</span>
-            <input type="search" value={q} placeholder="Road, school, barangay, agency…" onChange={(e) => setParam('q', e.target.value)} />
+            <span className="label">Hanapin</span>
+            <input type="search" value={q} placeholder="Kalsada, paaralan, barangay, ahensya…" onChange={(e) => setParam('q', e.target.value)} />
           </label>
           <label className="field">
-            <span className="label">Department</span>
+            <span className="label">Departamento</span>
             <select value={dept} onChange={(e) => setParam('dept', e.target.value)}>
-              <option value="">All departments</option>
+              <option value="">Lahat ng departamento</option>
               {departments.map(([id, d]) => <option key={id} value={id}>{d.label} ({count(d.rows)})</option>)}
             </select>
           </label>
           <label className="field">
-            <span className="label">Year</span>
+            <span className="label">Taon</span>
             <select value={year ?? ''} onChange={(e) => setParam('year', e.target.value)}>
-              <option value="">All years</option>
+              <option value="">Lahat ng taon</option>
               {totals.map((t) => <option key={t.year} value={t.year}>{t.year} ({count(t.programs)})</option>)}
             </select>
           </label>
         </div>
         {narrowed && (
           <p className="filter-sums">
-            {year ? <>{year}: {php(filtered.reduce((a, r) => a + (r.years[String(year)]?.amount ?? 0), 0))} across these {count(filtered.length)}</> : <>{count(filtered.length)} shown</>}
-            <span className="sep">·</span>
-            <button type="button" className="link-button" onClick={() => { setParams(new URLSearchParams(), { replace: true }); setShown(PAGE); }}>Clear filters</button>
+            {year ? <>Sa {year}: {piso(filtered.reduce((a, r) => a + (r.years[String(year)]?.amount ?? 0), 0))} sa {bilang(filtered.length, 'programang')} ito.</> : <>{bilang(filtered.length, 'programa')} ang ipinapakita.</>}{' '}
+            <button type="button" className="link-button" onClick={() => { setParams(new URLSearchParams(), { replace: true }); setShown(PAGE); }}>Alisin ang mga salain</button>
           </p>
         )}
 
         {filtered.length > 0 && (
-          <div className="table gtable" role="table" aria-label="Programs and projects, by year">
+          <div className="table gtable" role="table" aria-label="Mga programa at proyekto, bawat taon">
             <div className="tr th" role="row">
-              <span role="columnheader">Program or project</span>
+              <span role="columnheader">Programa o proyekto</span>
               {GAA_YEARS.map((y) => <span role="columnheader" key={y} className={`r${year === y ? ' ycol' : ''}`}>{y}</span>)}
             </div>
             {filtered.slice(0, shown).map((r) => <ProgramRow key={r.key} r={r} year={year} many={(config.scope.places?.length ?? 0) > 1} />)}
           </div>
         )}
-        {filtered.length === 0 && <p className="state">No program matches. Try fewer words or clear the filters.</p>}
+        {filtered.length === 0 && <p className="state">Walang tumugmang programa. Bawasan ang mga salita, o alisin ang mga salain.</p>}
         {filtered.length > shown && (
           <div className="more">
-            <span className="muted">Showing {count(shown)} of {count(filtered.length)}</span>
-            <button type="button" className="button" onClick={() => setShown((n) => n + PAGE)}>Show {count(Math.min(PAGE, filtered.length - shown))} more</button>
-            <button type="button" className="button button-quiet" onClick={() => setShown(filtered.length)}>Show all</button>
+            <span className="muted">Ipinapakita ang {count(shown)} sa {count(filtered.length)}</span>
+            <button type="button" className="button" onClick={() => setShown((n) => n + PAGE)}>Magpakita ng {count(Math.min(PAGE, filtered.length - shown))} pa</button>
+            <button type="button" className="button button-quiet" onClick={() => setShown(filtered.length)}>Ipakita lahat</button>
           </div>
         )}
         {result.queries.some((x) => x.truncated) && (
-          <p className="fine">Some searches matched more programs than this page loads; see About the data.</p>
+          <p className="fine">May mga paghahanap na mas marami ang tumugma kaysa kayang kunin ng pahinang ito; tingnan ang Tungkol sa datos.</p>
         )}
       </section>
     </>
@@ -324,16 +324,16 @@ function ProgramRow({ r, year, many }: { r: GaaRow; year: number | null; many: b
         <span className="gname">{r.name}</span>
         <span className="project-meta">
           <span className="label">{departmentShort(r.department)}</span>
-          <External href={`https://budget.bettergov.ph/d/${r.department_id}`}>department</External>
-          {many && r.reasons.map((p) => <span key={p} className="tag tag-place">names {p}</span>)}
+          <External href={`https://budget.bettergov.ph/d/${r.department_id}`}>departamento</External>
+          {many && r.reasons.map((p) => <span key={p} className="tag tag-place">binabanggit ang {p}</span>)}
         </span>
       </span>
       {GAA_YEARS.map((y) => {
         const has = hasYear(r, y);
         const amount = r.years[String(y)]?.amount ?? 0;
         return (
-          <span role="cell" key={y} data-label={String(y)} className={`r num gcell${has ? '' : ' none'}${year === y ? ' ycol' : ''}`} title={has ? phpFull(amount) : `No appropriation under this name in ${y}`}>
-            {has ? php(amount) : '—'}
+          <span role="cell" key={y} data-label={String(y)} className={`r num gcell${has ? '' : ' none'}${year === y ? ' ycol' : ''}`} title={has ? phpFull(amount) : `Walang pondo sa pangalang ito noong ${y}`}>
+            {has ? piso(amount) : '—'}
           </span>
         );
       })}

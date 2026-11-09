@@ -309,47 +309,47 @@
 .credit { font-size: 11px; color: var(--ink-mute); }
 
 /* ---------- Enacted budgets 2020–2026 (/gaa) ---------- */
-.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: -4px 0 14px; font-family: var(--font-mono); font-size: 11px; color: var(--ink-3); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 20px; margin: 0 0 16px; font-size: 15px; color: var(--ink-2); }
 .legend span { display: inline-flex; align-items: center; gap: 6px; }
-.sw { display: inline-block; width: 12px; height: 12px; }
+.sw { display: inline-block; width: 14px; height: 14px; border-radius: 3px; flex-shrink: 0; }
 .sw-gaa, .k-gaa .bar-fill { background: var(--ink-2); }
 .sw-nep, .k-nep .bar-fill { background: repeating-linear-gradient(135deg, var(--ink-3) 0 2px, transparent 2px 5px); box-shadow: inset 0 0 0 1px var(--ink-3); }
 .sw-house, .k-house .bar-fill { background: var(--accent); }
 .hgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(460px, 100%), 1fr)); gap: 16px; }
-.hcard { border: 1px solid var(--rule); border-top: 3px solid var(--ink); padding: 14px 16px 12px; scroll-margin-top: 16px; }
+.hcard { border: 1px solid var(--rule); border-radius: var(--radius-panel); padding: 20px 22px 16px; scroll-margin-top: 16px; }
 .hcard header { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 10px; }
-.hcard h3 { font-size: 17px; line-height: 1.25; }
+.hcard h3 { font-size: 20px; line-height: 1.25; }
 .hcard header .tier { flex-shrink: 0; max-width: 50%; }
-.bars { display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); gap: 6px; align-items: end; }
+/* The two 2027 bars are wider: their labels (Pangulo, Kamara) are words, not years. */
+.bars { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)) repeat(2, minmax(0, 1.4fr)); gap: 6px; align-items: end; }
 .bar-col { display: flex; flex-direction: column; align-items: stretch; gap: 3px; min-width: 0; }
 .bar-col.k-nep { margin-left: 6px; }
-.bar-v { font-family: var(--font-mono); font-size: 10px; color: var(--ink-2); text-align: center; white-space: nowrap; overflow: hidden; }
-.bar-track { position: relative; height: 92px; background: var(--paper-2); }
+.bar-v { font-size: 13px; font-weight: 600; color: var(--ink-2); text-align: center; white-space: nowrap; overflow: hidden; }
+.bar-track { position: relative; height: 110px; background: var(--paper-2); border-radius: 6px 6px 0 0; overflow: hidden; }
 .bar-fill { position: absolute; left: 0; right: 0; bottom: 0; min-height: 1px; }
-.bar-x { font-family: var(--font-mono); font-size: 10px; color: var(--ink-3); text-align: center; }
+.bar-x { font-size: 13px; color: var(--ink-3); text-align: center; }
 .congresses { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-top: 4px; }
-.congresses span { border-top: 1px solid var(--rule); padding-top: 3px; font-family: var(--font-mono); font-size: 9.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-mute); text-align: center; }
+.congresses span { border-top: 2px solid var(--rule); padding-top: 4px; font-size: 13px; color: var(--ink-3); text-align: center; }
 .hcard .fine { margin-top: 8px; }
 
-.ystrip { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); border-top: 1px solid var(--ink); border-bottom: 1px solid var(--rule); }
-.ycell { display: flex; flex-direction: column; gap: 4px; padding: 10px 10px 12px; background: var(--paper); border: none; border-right: 1px solid var(--rule-soft); text-align: left; }
-.ycell:last-child { border-right: none; }
-.ycell:hover { background: var(--paper-2); }
-.ycell.active { background: var(--accent-soft); box-shadow: inset 0 -3px 0 var(--accent); }
-.ybar { position: relative; height: 56px; background: var(--paper-2); }
-.ybar span { position: absolute; left: 0; right: 0; bottom: 0; background: var(--ink-2); min-height: 1px; }
+.ystrip { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 8px; }
+.ycell { display: flex; flex-direction: column; gap: 4px; padding: 12px 12px 14px; background: var(--paper); border: 1px solid var(--rule); border-radius: var(--radius-control); text-align: left; }
+.ycell:hover { border-color: var(--accent); }
+.ycell.active { background: var(--accent-soft); border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.ybar { position: relative; height: 64px; background: var(--paper-2); border-radius: 4px; overflow: hidden; }
+.ybar span { position: absolute; left: 0; right: 0; bottom: 0; background: var(--ink-3); min-height: 1px; }
 .ycell.active .ybar span { background: var(--accent); }
-.yv { font-family: var(--font-hero); font-weight: 700; font-size: 18px; }
-.ysub { font-family: var(--font-mono); font-size: 10.5px; color: var(--ink-3); }
+.yv { font-weight: 800; font-size: 17px; white-space: normal; line-height: 1.2; }
+.ysub { font-size: 14px; color: var(--ink-3); }
 
-.gtable .tr { grid-template-columns: minmax(0, 1fr) repeat(7, 84px); gap: 10px; }
-.gname { font-weight: 500; line-height: 1.4; }
-.gcell { font-size: 13px; }
+.gtable .tr { grid-template-columns: minmax(0, 1fr) repeat(7, 92px); gap: 8px; }
+.gname { font-weight: 600; line-height: 1.4; }
+.gcell { font-size: 14px; white-space: normal; }
 .gcell.none { color: var(--rule); }
 .ycol { background: var(--accent-soft); }
 .tr.th .ycol { color: var(--accent-deep); }
 .section-gap { margin-bottom: 40px; }
-.fine-list li { font-size: 13px; color: var(--ink-2); margin-bottom: 6px; }
+.fine-list li { font-size: 16px; color: var(--ink-2); margin-bottom: 8px; max-width: 72ch; }
 
 /* ---------- Project ---------- */
 .project-h { font-size: clamp(24px, 3vw, 34px); max-width: 980px; }
@@ -463,11 +463,15 @@ code { font-family: var(--font-mono); font-size: 0.9em; background: var(--paper-
     color: var(--ink-3);
   }
   .queries .tr { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .gtable .tr { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px 10px; }
+  .gtable .tr { grid-template-columns: 1fr; gap: 2px; }
   .gtable .gcell { text-align: left; }
   .ystrip { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-  .ycell { border-bottom: 1px solid var(--rule-soft); }
-  .bar-v { font-size: 8.5px; }
+  .bar-v { font-size: 10px; }
+  .bar-x { font-size: 11px; }
+  .bar-col.k-nep { margin-left: 0; }
+  /* On a phone, a program shows only the years it was funded. */
+  .gtable .gcell.none { display: none; }
+  .ysub { font-size: 13px; }
   .bar-track { height: 70px; }
   .bars { gap: 3px; }
   .queries .tr > span:first-child { grid-column: 1 / -1; }
@@ -475,6 +479,7 @@ code { font-family: var(--font-mono); font-size: 0.9em; background: var(--paper-
 
 @media (max-width: 560px) {
   .groups { grid-template-columns: 1fr; }
+  .ystrip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .footer-links { grid-template-columns: 1fr; }
   .list-head { flex-direction: column; align-items: flex-start; gap: 4px; }
   .field { flex: 1 1 100%; }
