@@ -37,3 +37,11 @@ export function date(iso: string): string {
     ? iso
     : d.toLocaleDateString('en-PH', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Manila' });
 }
+
+/** A date in Filipino: "Nobyembre 9, 2026". */
+export function petsa(iso: string): string {
+  const d = new Date(iso);
+  return Number.isNaN(d.getTime())
+    ? iso
+    : d.toLocaleDateString('fil-PH', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Manila' });
+}
