@@ -61,10 +61,10 @@ export function piso(n: number | null | undefined): string {
   return `₱${v.toLocaleString('en-US', { maximumFractionDigits: digits })} ${word}`;
 }
 
-/** A signed change in pesos: +₱150 milyon, −₱14 bilyon, or "walang pagbabago". */
+/** A signed change in pesos: +₱150 milyon, −₱14 bilyon, or "Wala" when the two match. */
 export function pisoDelta(n: number | null | undefined): string {
   if (n == null || !Number.isFinite(n)) return '—';
-  if (n === 0) return 'walang pagbabago';
+  if (n === 0) return 'Wala';
   return (n > 0 ? '+' : '−') + piso(Math.abs(n));
 }
 

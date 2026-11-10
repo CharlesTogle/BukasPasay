@@ -11,6 +11,7 @@ import type { ScopeResult } from '../lib/scope';
 import { departmentShort, loadGaa, type GaaResult } from '../lib/gaa';
 import type { Async } from '../lib/portal-context';
 import { useTitle } from '../lib/use-title';
+import { PHOTOS } from '../lib/photos';
 
 /** The API's `rules`, in words for readers rather than developers. */
 const READING_RULES = [
@@ -26,7 +27,7 @@ export default function About() {
   const { scope, overview, config } = usePortal();
   useTitle(`Tungkol sa datos · ${shortNameOf(config)}`);
   return (
-    <main className="page main">
+    <main id="nilalaman" className="page main">
       <Await state={scope} what="ang mga tanong ng portal">
         {(s) => (
           <Await state={overview} what="ang mga tala sa datos">
@@ -48,7 +49,7 @@ function AboutView({ scope, overview }: { scope: ScopeResult; overview: Overview
 
   return (
     <>
-      <PageHead eyebrow="Tungkol sa datos" title={`Saan galing ang ${bilang(scope.projects.length, 'proyektong')} ito?`}>
+      <PageHead eyebrow="Tungkol sa datos" title={`Saan galing ang ${bilang(scope.projects.length, 'proyektong')} ito?`} photo={PHOTOS.libertad}>
         <p>
           Galing ang bawat numero sa BetterGov.ph Budget API, na nagkukumpara ng bersyon ng Kamara at mungkahi ng Pangulo,
           proyekto sa proyekto. Itinatanong ng {shortNameOf(config)} sa API ang mga tanong sa ibaba, at ipinapakita ang bawat

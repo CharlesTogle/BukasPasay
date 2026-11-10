@@ -8,6 +8,7 @@ import { External } from '../components/Bits';
 import { useTitle } from '../lib/use-title';
 import { usePortal } from '../lib/portal-context';
 import { shortNameOf } from '../config';
+import { PHOTOS } from '../lib/photos';
 
 const REPORTS_URL = 'https://pasay.gov.ph/transparency/reports/';
 
@@ -53,8 +54,8 @@ export default function City() {
   const { config } = usePortal();
   useTitle(`Badyet ng Lungsod · ${shortNameOf(config)}`);
   return (
-    <main className="page main">
-      <PageHead eyebrow="Pera ng Lungsod" title={`Ang sariling badyet ng ${config.name}`}>
+    <main id="nilalaman" className="page main">
+      <PageHead eyebrow="Pera ng Lungsod" title={`Ang sariling badyet ng ${config.name}`} photo={PHOTOS.cityHall}>
         <p>
           Iba ito sa mga proyekto ng nasyonal na pamahalaan sa ibang bahagi ng portal. Ito ang perang kinokolekta at ginagastos
           mismo ng Pamahalaang Lungsod: mula sa buwis at bayarin sa lungsod, at sa bahagi nito sa kita ng bansa.

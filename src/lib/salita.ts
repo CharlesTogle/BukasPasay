@@ -6,6 +6,11 @@ import type { BridgeGroup } from '../api/types';
 
 export const NEP = 'Mungkahi ng Pangulo';
 export const HOUSE = 'Bersyon ng Kamara';
+/** What "Kamara" is, for readers who do not know the word. */
+export const KAMARA_HELP =
+  'Ang Kamara ay ang House of Representatives o Mababang Kapulungan ng Kongreso: ang mga kongresistang inihalal ng bawat distrito at party-list. Sila ang unang bumabago sa badyet na iminungkahi ng Pangulo bago ito ipasa sa Senado.';
+/** The House figure less the President's: "Wala" when they match. */
+export const DIFF = 'Pagkakaiba ng Kamara at ng Pangulo';
 
 /** What the House bill did to a project, compared with the President's proposal. */
 export const GROUPS: Record<BridgeGroup, { label: string; sub: string; help: string }> = {
@@ -21,7 +26,7 @@ export const GROUPS: Record<BridgeGroup, { label: string; sub: string; help: str
   },
   unchanged: {
     label: 'Parehong halaga',
-    sub: 'walang binago',
+    sub: 'pareho sa dalawang bersyon',
     help: 'Nasa dalawang bersyon, at pareho ang halaga.',
   },
   increased: {

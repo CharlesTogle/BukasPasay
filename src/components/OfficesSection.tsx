@@ -14,9 +14,11 @@ import type { DistrictCard, DistrictOffice, Envelope } from '../api/types';
 import { BRIDGE_GROUPS } from '../api/types';
 import { bilang, count, piso, pisoDelta } from '../lib/format';
 import { usePortal } from '../lib/portal-context';
-import { GROUPS, HOUSE, NEP, tierText } from '../lib/salita';
+import { DIFF, GROUPS, HOUSE, KAMARA_HELP, NEP, tierText } from '../lib/salita';
 import type { QueryReport, ScopedProject } from '../lib/scope';
-import { Await, External } from './Bits';
+import { Await, External, Info } from './Bits';
+import type { Photo } from '../lib/photos';
+import Picture from './Picture';
 
 interface DistrictRow {
   id: string;
@@ -37,17 +39,19 @@ interface OfficeView {
   districts: DistrictRow[];
 }
 
-export default function OfficesSection() {
+export default function OfficesSection({ photo }: { photo?: Photo }) {
   const { districts, scope, config } = usePortal();
   // Nothing to show for a scope with neither offices nor districts.
   if (!config.scope.offices?.length && !config.scope.districts?.length) return null;
   const queries = scope.status === 'ready' ? scope.value.queries.filter((q) => q.kind === 'office') : [];
   const projects = scope.status === 'ready' ? scope.value.projects : [];
   return (
-    <section className="section" id="offices" aria-labelledby="offices-h">
-      <Await state={districts} what="ang mga opisina ng DPWH at distrito">
-        {(list) => <Offices list={list} queries={queries} projects={projects} />}
-      </Await>
+    <section className="band band-wash" id="offices" aria-labelledby="offices-h">
+      <div className="page">
+        <Await state={districts} what="ang mga opisina ng DPWH at distrito">
+          {(list) => <Offices list={list} queries={queries} projects={projects} photo={photo} />}
+        </Await>
+      </div>
     </section>
   );
 }
@@ -86,7 +90,7 @@ function buildOffices(cards: DistrictCard[], queries: QueryReport[], projects: S
   return { offices, noOffice: cards.filter((c) => !c.offices.length) };
 }
 
-function Offices({ list, queries, projects }: { list: Envelope<DistrictCard>[]; queries: QueryReport[]; projects: ScopedProject[] }) {
+function Offices({ list, queries, projects, photo }: { list: Envelope<DistrictCard>[]; queries: QueryReport[]; projects: ScopedProject[]; photo?: Photo }) {
   const { overview } = usePortal();
   const cards = list.map((e) => e.data);
   const { offices, noOffice } = buildOffices(cards, queries, projects);
@@ -97,6 +101,8 @@ function Offices({ list, queries, projects }: { list: Envelope<DistrictCard>[]; 
 
   return (
     <>
+      <div className={photo ? 'split split-head' : undefined}>
+      <div>
       <h2 id="offices-h" className="section-h">Aling opisina ng DPWH ang gagawa?</h2>
       <p className="section-lede">
         Nakalista ang pera ng DPWH ayon sa opisinang gagawa ng proyekto (district engineering office). Dito,{' '}
@@ -105,6 +111,9 @@ function Offices({ list, queries, projects }: { list: Envelope<DistrictCard>[]; 
         {/* The API's note, in Tagalog; its English is the tooltip. */}
         {note && <> <span title={note}>Nakalista sila para mahanap mo ang distrito mo; hindi ibig sabihing hiniling, itinaguyod, o hawak nila ang anumang proyekto o halaga.</span></>}
       </p>
+      </div>
+      {photo && <Picture photo={photo} sizes="(max-width: 1023px) 100vw, 40vw" className="split-frame" />}
+      </div>
 
       <div className={`ogrid${offices.length === 1 ? ' one' : ''}`}>
         {offices.map((o) => <Office key={o.office.id} view={o} />)}
@@ -156,11 +165,11 @@ function Office({ view }: { view: OfficeView }) {
           <dd className="num">{piso(f?.nep_php)}</dd>
         </div>
         <div>
-          <dt className="label">{HOUSE}</dt>
+          <dt className="label">{HOUSE}<Info term="Kamara">{KAMARA_HELP}</Info></dt>
           <dd className="num">{piso(f?.hgab3_php)}</dd>
         </div>
         <div>
-          <dt className="label">Pagbabago</dt>
+          <dt className="label">{DIFF}</dt>
           <dd className="num">{pisoDelta(change)}</dd>
         </div>
       </dl>

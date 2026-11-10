@@ -3,14 +3,20 @@ import { Link, useLocation, useSearchParams } from 'react-router-dom';
 import type { BridgeGroup, DatasetInfo, Disclaimer } from '../api/types';
 import { BRIDGE_GROUPS } from '../api/types';
 import { shortNameOf, type DatasetKey } from '../config';
-import { Await, Disclaimers, ReasonTags, StatusChip } from '../components/Bits';
+import { Await, Disclaimers, Info, ReasonTags, StatusChip } from '../components/Bits';
+import { Arrow } from '../components/Chrome';
+import Picture from '../components/Picture';
 import OfficesSection from '../components/OfficesSection';
 import { projectsCsv, downloadText } from '../lib/csv';
 import { bilang, count, piso, pisoDelta } from '../lib/format';
 import { usePortal } from '../lib/portal-context';
-import { GROUPS, HOUSE, NEP } from '../lib/salita';
+import { DIFF, GROUPS, HOUSE, KAMARA_HELP, NEP } from '../lib/salita';
 import { summarise, type ScopedProject, type ScopeResult, type Summary } from '../lib/scope';
 import { useTitle } from '../lib/use-title';
+import { PHOTOS } from '../lib/photos';
+
+/** The hero enters once a visit, not on every return to this page. */
+let entered = false;
 
 const PAGE = 100;
 
@@ -26,8 +32,41 @@ export default function Home() {
   const { scope, overview, config } = usePortal();
   useTitle(`Mga proyekto sa 2027 · ${shortNameOf(config)}`);
   const datasets = overview.status === 'ready' ? overview.value.data.datasets : [];
+  const placeName = config.scope.places?.[0]?.label ?? shortNameOf(config);
+  const programName = (k: DatasetKey) => datasets.find((d) => d.key === k)?.short ?? k.toUpperCase();
+  const summary = useMemo(() => (scope.status === 'ready' ? summarise(scope.value.projects) : null), [scope]);
+  const [enter] = useState(() => !entered);
+  useEffect(() => { entered = true; }, []);
   return (
-    <main className="page main">
+    <main id="nilalaman" className="main main-home">
+      <section className="hero" aria-labelledby="how-much-h" data-enter={enter ? '' : undefined}>
+        <div className="page hero-grid">
+          <div className="hero-text">
+            <p className="eyebrow">Pera ng Nasyonal sa {placeName} · Panukalang badyet 2027</p>
+            <h1 id="how-much-h" className="hero-h">
+              <span className="hero-line"><span className="hero-q">Magkano ang para sa {placeName} sa 2027?</span></span>
+              <span className="hero-line">
+                <span className="hero-a">
+                  {summary ? (
+                    <>{piso(summary.house.php)}, para sa {bilang(summary.house.rows, 'proyekto')}.</>
+                  ) : scope.status === 'error' ? (
+                    'Hindi pa makuha ang sagot.'
+                  ) : (
+                    <span className="hero-wait">Binibilang pa…</span>
+                  )}
+                </span>
+              </span>
+            </h1>
+            {summary && <HowMuch summary={summary} programName={programName} />}
+            <div className="hero-actions">
+              <a className="button button-primary button-lg" href="#mine">Hanapin ang barangay ko <Arrow /></a>
+              <a className="button button-lg" href="#projects">Tingnan ang mga proyekto</a>
+            </div>
+          </div>
+          <Picture photo={PHOTOS.roxas} sizes="(max-width: 1023px) 100vw, 46vw" eager className="hero-frame" />
+        </div>
+      </section>
+
       <Await state={scope} what="ang mga proyekto">
         {(s) => <Projects scope={s} datasets={datasets} />}
       </Await>
@@ -51,7 +90,6 @@ function Projects({ scope, datasets }: { scope: ScopeResult; datasets: DatasetIn
     if (districts.status === 'ready') for (const env of districts.value) for (const d of env.disclaimers) if (!byId.has(d.id)) byId.set(d.id, d);
     return [...byId.values()];
   }, [scope.disclaimers, districts]);
-  const name = shortNameOf(config);
   const all = scope.projects;
   const summary = useMemo(() => summarise(all), [all]);
   const programName = (k: DatasetKey) => datasets.find((d) => d.key === k)?.short ?? k.toUpperCase();
@@ -104,16 +142,19 @@ function Projects({ scope, datasets }: { scope: ScopeResult; datasets: DatasetIn
   const filteredSummary = useMemo(() => summarise(filtered), [filtered]);
   const narrowed = filtered.length !== all.length;
 
-  const placeName = config.scope.places?.[0]?.label ?? name;
+  // What the barangay search finds, said under the box as the reader types.
+  const asked = useMemo(() => {
+    const words = q.toLowerCase().split(/\s+/).filter(Boolean);
+    if (!words.length) return null;
+    return all.filter((p) => {
+      const hay = [p.title, p.program, p.pap, p.office, p.region].join(' ').toLowerCase();
+      return words.every((w) => hay.includes(w));
+    });
+  }, [all, q]);
   return (
     <>
-      <p className="eyebrow">Pera ng Nasyonal sa {placeName}</p>
-      <section className="answer answer-hero" aria-labelledby="how-much-h">
-        <h1 id="how-much-h" className="answer-q">Magkano ang para sa {placeName} sa 2027?</h1>
-        <HowMuch summary={summary} programName={programName} />
-      </section>
-
-      <section className="section" aria-labelledby="groups-h">
+      <section className="band band-wash" aria-labelledby="groups-h">
+        <div className="page">
         <h2 id="groups-h" className="section-h">Ano ang binago ng Kongreso?</h2>
         <p className="section-lede">
           Ikinumpara namin ang mungkahi ng Pangulo sa bersyon ng Kamara. {bilang(summary.groups.house_only.rows, 'proyekto')} ang
@@ -148,21 +189,40 @@ function Projects({ scope, datasets }: { scope: ScopeResult; datasets: DatasetIn
             );
           })}
         </div>
+        </div>
       </section>
 
-      <section className="section ask" aria-labelledby="mine-h">
-        <h2 id="mine-h" className="section-h">Kasama ba ang barangay ko?</h2>
-        <label className="ask-field">
-          <span className="ask-label">I-type ang barangay, kalye, paaralan, o opisina</span>
-          <input type="search" value={q} placeholder="Hal. Barangay 76, EDSA, Libertad" onChange={(e) => setParam('q', e.target.value)} />
-        </label>
-        <p className="fine">
-          Hinahanap namin ang salita sa pangalan ng bawat proyekto. Kung walang lumabas, maaaring hindi lang nakasulat ang
-          barangay sa pangalan: subukan ang pangalan ng kalye o lugar na malapit.
-        </p>
+      <section className="band" id="mine" aria-labelledby="mine-h">
+        <div className="page split">
+          <div className="ask">
+            <h2 id="mine-h" className="section-h">Kasama ba ang barangay ko?</h2>
+            <label className="ask-field">
+              <span className="ask-label">I-type ang barangay, kalye, paaralan, o opisina</span>
+              <input type="search" value={q} placeholder="Hal. Barangay 76, EDSA, Libertad" onChange={(e) => setParam('q', e.target.value)} />
+            </label>
+            <p className="ask-result" role="status">
+              {asked == null ? (
+                <>Hinahanap namin ang salita sa pangalan ng bawat isa sa {bilang(all.length, 'proyekto')}.</>
+              ) : asked.length ? (
+                <>
+                  <strong>{bilang(asked.length, 'proyekto')}</strong> ang bumabanggit sa “{q.trim()}”.{' '}
+                  <a href="#projects">Tingnan sa listahan</a>
+                </>
+              ) : (
+                <>Walang proyektong bumabanggit sa “{q.trim()}”.</>
+              )}
+            </p>
+            <p className="fine">
+              Kung walang lumabas, maaaring hindi lang nakasulat ang barangay sa pangalan ng proyekto: subukan ang pangalan ng
+              kalye o lugar na malapit.
+            </p>
+          </div>
+          <Picture photo={PHOTOS.rooftops} sizes="(max-width: 1023px) 100vw, 50vw" develop className="split-frame" />
+        </div>
       </section>
 
-      <section className="section" id="projects" aria-labelledby="list-h">
+      <section className="band" id="projects" aria-labelledby="list-h">
+        <div className="page">
         <div className="list-head">
           <h2 id="list-h" className="section-h">
             {narrowed ? `${count(filtered.length)} sa ${count(all.length)} na proyekto` : `Ano-ano ang mga proyekto? (${count(all.length)})`}
@@ -227,6 +287,8 @@ function Projects({ scope, datasets }: { scope: ScopeResult; datasets: DatasetIn
           </p>
         )}
 
+        <TableKey groups={BRIDGE_GROUPS.filter((g) => summary.groups[g].rows)} />
+
         <ProjectTable rows={filtered.slice(0, shown)} programName={programName} />
 
         {filtered.length === 0 && <p className="state">Walang tumugmang proyekto. Bawasan ang mga salita, o alisin ang mga salain.</p>}
@@ -243,11 +305,14 @@ function Projects({ scope, datasets }: { scope: ScopeResult; datasets: DatasetIn
           iyon. Dalawang bersyon ng iisang badyet ang mungkahi ng Pangulo at ang bersyon ng Kamara: ikinukumpara, hindi
           pinagsasama.
         </p>
+        </div>
       </section>
 
-      <OfficesSection />
+      <OfficesSection photo={PHOTOS.road} />
 
-      <Disclaimers items={disclaimers} compact />
+      <div className="page band-tail">
+        <Disclaimers items={disclaimers} compact />
+      </div>
     </>
   );
 }
@@ -274,21 +339,50 @@ function HowMuch({ summary, programName }: { summary: Summary; programName: (k: 
     .sort((a, b) => b[1].rows - a[1].rows)
     .map(([k, c]) => `${count(c.rows)} sa ${programName(k)}`);
   return (
-    <>
-      <p className="answer-a">
-        {piso(summary.house.php)}, para sa {bilang(summary.house.rows, 'proyekto')}.
-      </p>
+    <div className="hero-lead">
       <p>
         Iyan ang nasa bersyon ng Kamara (House Bill 10858). Sa mungkahi ng Pangulo (NEP), {piso(summary.nep.php)} para sa{' '}
         {bilang(summary.nep.rows, 'proyekto')}. Dalawang bersyon ito ng iisang badyet, kaya hindi pinagsasama. Panukala pa lang
         ito, hindi pa batas.
       </p>
       {programs.length > 0 && (
-        <p className="answer-small">
+        <p className="hero-small">
           Lahat-lahat, {bilang(summary.rows, 'proyekto')} ang nakita namin: {programs.join(', ')}.
         </p>
       )}
-    </>
+    </div>
+  );
+}
+
+/** What each column of the list means, and each status in "Binago ng Kongreso", in plain words. */
+function TableKey({ groups }: { groups: BridgeGroup[] }) {
+  return (
+    <section className="table-key" aria-labelledby="key-h">
+      <h3 id="key-h" className="table-key-h">Paano basahin ang listahan</h3>
+      <dl className="table-key-cols">
+        <div>
+          <dt>{NEP}</dt>
+          <dd>Ang halagang hiniling ng Pangulo para sa proyekto (NEP), ang unang bersyon ng badyet.</dd>
+        </div>
+        <div>
+          <dt>{HOUSE}<Info term="Kamara">{KAMARA_HELP}</Info></dt>
+          <dd>Ang halaga matapos itong baguhin ng mga kongresista (House Bill 10858). Panukala pa rin, hindi pa batas.</dd>
+        </div>
+        <div>
+          <dt>{DIFF}</dt>
+          <dd>Ang bersyon ng Kamara bawas ang mungkahi ng Pangulo: <span className="delta up">+</span> kung dinagdagan, <span className="delta down">−</span> kung binawasan, at “Wala” kung pareho.</dd>
+        </div>
+      </dl>
+      <p className="table-key-sub"><strong>Binago ng Kongreso</strong>: ano ang nangyari sa proyekto mula sa mungkahi ng Pangulo hanggang sa bersyon ng Kamara.</p>
+      <dl className="table-key-groups">
+        {groups.map((g) => (
+          <div key={g}>
+            <dt><span className={`status-dot g-${g}`} aria-hidden="true" />{GROUPS[g].label}</dt>
+            <dd>{GROUPS[g].help}</dd>
+          </div>
+        ))}
+      </dl>
+    </section>
   );
 }
 
@@ -300,8 +394,8 @@ function ProjectTable({ rows, programName }: { rows: ScopedProject[]; programNam
         <span role="columnheader">Proyekto</span>
         <span role="columnheader">Binago ng Kongreso</span>
         <span role="columnheader" className="r">{NEP}</span>
-        <span role="columnheader" className="r">{HOUSE}</span>
-        <span role="columnheader" className="r">Pagbabago</span>
+        <span role="columnheader" className="r">{HOUSE}<Info term="Kamara" align="end">{KAMARA_HELP}</Info></span>
+        <span role="columnheader" className="r">{DIFF}</span>
       </div>
       {rows.map((p) => (
         <div className="tr" role="row" key={p.key}>
@@ -317,7 +411,7 @@ function ProjectTable({ rows, programName }: { rows: ScopedProject[]; programNam
           <span role="cell" className="td-status"><StatusChip group={p.bridge_group} label={p.status_label} held={p.held} /></span>
           <span role="cell" className="r num" data-label={NEP}>{piso(p.nep_php)}</span>
           <span role="cell" className="r num strong" data-label={HOUSE}>{piso(p.house_php)}</span>
-          <span role="cell" className={`r num delta ${(p.delta_php ?? 0) > 0 ? 'up' : (p.delta_php ?? 0) < 0 ? 'down' : ''}`} data-label="Pagbabago">
+          <span role="cell" className={`r num delta ${(p.delta_php ?? 0) > 0 ? 'up' : (p.delta_php ?? 0) < 0 ? 'down' : ''}`} data-label={DIFF}>
             {pisoDelta(p.delta_php)}
           </span>
         </div>

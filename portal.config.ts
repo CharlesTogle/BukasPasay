@@ -1,32 +1,24 @@
 /**
- * This portal's configuration: the only file a fork needs to edit.
- * What each field means: src/config.ts. Generate one with `npm run setup`;
- * check it against the live API with `npm run check`.
- *
- * This default is a worked example: the Province of Bohol. Its three DPWH
- * district engineering offices bring in every DPWH line listed under them;
- * the place name brings in lines from all four programs whose title names
- * Bohol (Central Office projects, farm-to-market roads, health facilities,
- * irrigation). More examples in examples/.
+ * Bukas Pasay's configuration: the only file a fork needs to edit.
+ * What each field means: src/config.ts. Regenerate with `npm run setup`;
+ * check it against the live API with `npm run check -- --verbose`.
  */
 import { defineConfig } from './src/config';
 
 export default defineConfig({
-  id: 'bohol-province',
-  kind: 'province',
-  name: 'Province of Bohol',
-  shortName: 'Bohol',
-  operator: { name: 'BetterGov.ph', url: 'https://bettergov.ph' },
-  // Where this example is deployed. Change it (or remove it) in your fork.
-  siteUrl: 'https://transparency-portal.bettergov.workers.dev',
+  id: 'bukas-pasay',
+  kind: 'city',
+  name: 'Pasay City',
+  shortName: 'Bukas Pasay',
+  operator: { name: 'Bukas Pasay', url: 'https://bukas-pasay.6digits.dev' },
+  siteUrl: 'https://bukas-pasay.6digits.dev',
   scope: {
-    offices: [
-      'Bohol 1st District Engineering Office',
-      'Bohol 2nd District Engineering Office',
-      'Bohol 3rd District Engineering Office',
-    ],
-    places: [{ label: 'Bohol', region: 'VII' }],
-    districts: ['leg:bohol:1st', 'leg:bohol:2nd', 'leg:bohol:3rd'],
+    // No DPWH office in scope. The FY2027 documents list Pasay's lines under
+    // the South Manila District Engineering Office, which also serves part of
+    // Manila; adding it would show Manila projects as Pasay's. The place query
+    // below picks up the Pasay lines by title instead (all checked 2026-11-09).
+    places: [{ label: 'Pasay', q: 'Pasay', region: 'NCR' }],
+    districts: ['leg:pasay-city:lone'], // confirmed by `npm run check`: Pasay City, Lone District
     exclude: [],
   },
   reporting: { enabled: false },

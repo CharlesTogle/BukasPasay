@@ -1,9 +1,39 @@
-import type { ReactNode } from 'react';
+import { useEffect, useId, useRef, useState, type ReactNode } from 'react';
 import type { BridgeGroup, Disclaimer } from '../api/types';
 import type { Async } from '../lib/portal-context';
 import { usePortal } from '../lib/portal-context';
 import { GROUPS } from '../lib/salita';
 import type { Reason } from '../lib/scope';
+
+/**
+ * A small (i) after a word, opening its definition: on hover or keyboard
+ * focus, and on a tap for touch screens. Escape or a tap elsewhere closes it.
+ * `align="end"` opens the bubble leftward, for right-aligned columns.
+ */
+export function Info({ term, children, align }: { term: string; children: ReactNode; align?: 'end' }) {
+  const id = useId();
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLSpanElement>(null);
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => e.key === 'Escape' && setOpen(false);
+    const onDown = (e: PointerEvent) => !ref.current?.contains(e.target as Node) && setOpen(false);
+    document.addEventListener('keydown', onKey);
+    document.addEventListener('pointerdown', onDown);
+    return () => {
+      document.removeEventListener('keydown', onKey);
+      document.removeEventListener('pointerdown', onDown);
+    };
+  }, [open]);
+  return (
+    <span ref={ref} className={`info${open ? ' open' : ''}${align === 'end' ? ' info-end' : ''}`}>
+      <button type="button" className="info-btn" aria-label={`Ano ang ${term}?`} aria-describedby={id} aria-expanded={open} onClick={() => setOpen((o) => !o)}>
+        <span aria-hidden="true">i</span>
+      </button>
+      <span role="tooltip" id={id} className="info-bubble">{children}</span>
+    </span>
+  );
+}
 
 /** The status in Tagalog, with the group's colour; the API's own wording is the tooltip. */
 export function StatusChip({ group, label, held }: { group: BridgeGroup; label: string; held?: boolean }) {

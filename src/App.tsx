@@ -33,7 +33,7 @@ export default function App() {
         <Route
           path="*"
           element={
-            <main className="page main">
+            <main id="nilalaman" className="page main">
               <p className="state">Walang ganitong pahina. <Link to="/">Tingnan ang lahat ng proyekto</Link></p>
             </main>
           }

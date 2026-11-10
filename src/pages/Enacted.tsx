@@ -51,7 +51,7 @@ export default function Enacted() {
 
   const placeList = places.map((p) => p.label).join(', ');
   return (
-    <main className="page main">
+    <main id="nilalaman" className="page main">
       <p className="eyebrow">Pera ng Nasyonal sa {placeList || name}</p>
       <section className="answer answer-hero" aria-labelledby="enacted-h">
         <h1 id="enacted-h" className="answer-q">Ano ang inaprubahan para sa {placeList || name} mula {FIRST} hanggang {LAST}?</h1>

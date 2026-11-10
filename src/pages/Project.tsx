@@ -8,7 +8,7 @@ import { usePortal, type Async } from '../lib/portal-context';
 import { projectKey } from '../lib/scope';
 import { reportHref } from '../lib/report';
 import { useTitle } from '../lib/use-title';
-import { GROUPS } from '../lib/salita';
+import { GROUPS, DIFF } from '../lib/salita';
 
 const VERSIONS: Version[] = ['nep', 'hgab2', 'hgab3', 'api'];
 /** Each version in Tagalog; the API's own label is the tooltip. */
@@ -40,14 +40,14 @@ export default function Project() {
 
   if (!valid) {
     return (
-      <main className="page main">
+      <main id="nilalaman" className="page main">
         <p className="state">Walang programang “{dataset}”. <Link to="/">Bumalik sa lahat ng proyekto</Link></p>
       </main>
     );
   }
   const current: Async<Envelope<ProjectDetail>> = state?.key === key ? state.value : { status: 'loading' };
   return (
-    <main className="page main">
+    <main id="nilalaman" className="page main">
       <p className="crumbs"><Link to="/">← Lahat ng proyekto</Link></p>
       <Await state={current} what="ang proyekto">
         {(env) => <ProjectView env={env} />}
@@ -113,7 +113,7 @@ function ProjectView({ env }: { env: Envelope<ProjectDetail> }) {
                 );
               })}
               <tr className="amounts-total">
-                <th scope="row">Pagbabago, Kamara laban sa mungkahi ng Pangulo</th>
+                <th scope="row">{DIFF}</th>
                 <td className="num r">{pisoDelta(p.delta_php)}</td>
                 <td />
               </tr>
