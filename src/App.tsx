@@ -4,6 +4,7 @@ import ScrollToTop from './components/ScrollToTop';
 import { configProblems } from './config';
 import { usePortal } from './lib/portal-context';
 import About from './pages/About';
+import City from './pages/City';
 import Home from './pages/Home';
 import Project from './pages/Project';
 import Enacted from './pages/Enacted';
@@ -25,14 +26,15 @@ export default function App() {
         <Route path="/" element={<Home />} />
         {/* Offices and their districts are a section of the main page; old links land there. */}
         <Route path="/districts" element={<Navigate to="/#offices" replace />} />
+        <Route path="/lungsod" element={<City />} />
         <Route path="/gaa" element={<Enacted />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects/:dataset/:id" element={<Project />} />
         <Route
           path="*"
           element={
-            <main className="page main">
-              <p className="state">This page does not exist. <Link to="/">See every project</Link></p>
+            <main id="nilalaman" className="page main">
+              <p className="state">Walang ganitong pahina. <Link to="/">Tingnan ang lahat ng proyekto</Link></p>
             </main>
           }
         />
