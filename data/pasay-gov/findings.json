@@ -1,5 +1,12 @@
 {
   "checked": "2026-11-09",
+  "scope": "These findings cover pasay.gov.ph only: the current site, the old site's file links, and the Wayback Machine's copies of both.",
+  "not_checked": [
+    "DBM Full Disclosure Policy portal",
+    "COA annual audit reports",
+    "PhilGEPS (Philippine Government Electronic Procurement System)",
+    "Pasay City Hall: no visit or in-person request was made"
+  ],
   "findings": [
     {
       "id": "bulletin-files-not-migrated",

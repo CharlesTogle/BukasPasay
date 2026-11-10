@@ -19,7 +19,11 @@
     "data:pasay-gov:summary": "tsx scripts/pasay-gov/summary.ts",
     "data:pasay-gov:legacy": "tsx scripts/pasay-gov/legacy.ts",
     "data:pasay-gov:inspect": "tsx scripts/pasay-gov/inspect.ts",
-    "data:pasay-gov:ocr": "tsx scripts/pasay-gov/ocr.ts"
+    "data:pasay-gov:ocr": "tsx scripts/pasay-gov/ocr.ts",
+    "data:pasay-gov:by-month": "tsx scripts/pasay-gov/by-month.ts",
+    "data:pasay-gov:procurement-amounts": "tsx scripts/pasay-gov/procurement-amounts.ts",
+    "data:pasay-gov:procurement-iqr": "tsx scripts/pasay-gov/procurement-iqr.ts",
+    "data:pasay-gov:procurement-review": "tsx scripts/pasay-gov/procurement-review.ts"
   },
   "dependencies": {
     "react": "^19.2.5",
