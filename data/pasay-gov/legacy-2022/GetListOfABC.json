@@ -1,0 +1,15 @@
+{
+ "category": "ABC",
+ "endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetListOfABC",
+ "archived_at": "2022-06-18",
+ "source": "https://web.archive.org/web/20220618154315id_/https://www.pasay.gov.ph/GeneralInfo/GetListOfABC",
+ "rows": [
+  {
+   "id": 1,
+   "title": "ITB20-11-066E",
+   "description": "NOA, NTP, RESO, PO",
+   "posted": "2021-03-05T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetABCImages?imgId=1"
+  }
+ ]
+}

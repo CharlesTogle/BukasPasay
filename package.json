@@ -13,7 +13,13 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "deploy:cloudflare": "npm run build && wrangler deploy",
-    "build:poster": "tsx scripts/build-poster.ts"
+    "build:poster": "tsx scripts/build-poster.ts",
+    "data:pasay-gov": "tsx scripts/pasay-gov/catalog.ts",
+    "data:pasay-gov:download": "tsx scripts/pasay-gov/download.ts",
+    "data:pasay-gov:summary": "tsx scripts/pasay-gov/summary.ts",
+    "data:pasay-gov:legacy": "tsx scripts/pasay-gov/legacy.ts",
+    "data:pasay-gov:inspect": "tsx scripts/pasay-gov/inspect.ts",
+    "data:pasay-gov:ocr": "tsx scripts/pasay-gov/ocr.ts"
   },
   "dependencies": {
     "react": "^19.2.5",

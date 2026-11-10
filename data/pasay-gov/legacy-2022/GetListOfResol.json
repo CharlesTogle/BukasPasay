@@ -1,0 +1,22 @@
+{
+ "category": "Resolutions",
+ "endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetListOfResol",
+ "archived_at": "2022-06-18",
+ "source": "https://web.archive.org/web/20220618154816id_/https://www.pasay.gov.ph/GeneralInfo/GetListOfResol",
+ "rows": [
+  {
+   "id": 1,
+   "title": "Resolution No. 3578, Series of 2015",
+   "description": "A RESOLUTION APPROVING THE ANNUAL INVESTMENT PLAN (AIP) AS INCORPORATED IN THE 2016 ANNUAL BUDGET OF THE CITY GOVERNMENT OF PASAY PROVIDING GUIDELINES FOR ITS IMPLEMENTATION THEREOF.",
+   "posted": "2020-10-26T06:52:58.527Z",
+   "file_endpoint": null
+  },
+  {
+   "id": 2,
+   "title": "Resolution No. 2923, Series of 2012",
+   "description": "A RESOLUTION APPROVING THE ANNUAL INVESTMENT PLAN (AIP) AS EMBODIED IN THE 2013 ANNUAL BUDGET OF THE CITY GOVERNMENT OF PASAY AND PROVIDING GUIDELINES FOR ITS IMPLEMENTATION THEREOF.",
+   "posted": "2020-10-26T07:02:38.303Z",
+   "file_endpoint": null
+  }
+ ]
+}

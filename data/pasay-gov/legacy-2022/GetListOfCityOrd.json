@@ -1,0 +1,15 @@
+{
+ "category": "City Ordinances",
+ "endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetListOfCityOrd",
+ "archived_at": "2022-06-18",
+ "source": "https://web.archive.org/web/20220618154809id_/https://www.pasay.gov.ph/GeneralInfo/GetListOfCityOrd",
+ "rows": [
+  {
+   "id": 1,
+   "title": "City Ordinance No. 6062, Series of 2019",
+   "description": "AN ORDINANCE AUTHORIZING and APPROVING THE ANNUAL BUDGET OF PASAY CITY FOR FISCAL YEAR 2020 IN THE TOTAL AMOUNT OF EIGHT BILLION THREE HUNDRED MILLION PESOS (Php 8,300,000,000.00) COVERING THE VARIOUS EXPENDITURES FOR THE OPERATIONS OF THE DIFFERENT DEPARTMENTS AND/OR OFFICES OF THE CITY GOVERNMENT FOR FISCAL YEAR 2020, AND APPOPRIATING THE NECESSARY FUNDS FOR THE PURPOSE SUBJECT TO COMPLIANCE WITH ALL APPLICABLE LAWS, RULES",
+   "posted": "2020-10-26T06:36:15.660Z",
+   "file_endpoint": null
+  }
+ ]
+}

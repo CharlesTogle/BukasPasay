@@ -1,0 +1,29 @@
+{
+ "category": "APP",
+ "endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetListOfAPP",
+ "archived_at": "2022-06-18",
+ "source": "https://web.archive.org/web/20220618154323id_/https://www.pasay.gov.ph/GeneralInfo/GetListOfAPP",
+ "rows": [
+  {
+   "id": 1,
+   "title": "APP",
+   "description": "APP",
+   "posted": "2021-04-08T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAPPImages?imgId=1"
+  },
+  {
+   "id": 2,
+   "title": "Consolidated Annual Procurement Plan",
+   "description": "Fiscal Year 2022",
+   "posted": "2022-01-27T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAPPImages?imgId=2"
+  },
+  {
+   "id": 3,
+   "title": "Addendum No. 22-03-002",
+   "description": "Addendum No. 22-03-002",
+   "posted": "2022-03-08T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAPPImages?imgId=3"
+  }
+ ]
+}

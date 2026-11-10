@@ -1,0 +1,2 @@
+# Python tools for scripts/pasay-gov (OCR). Install: python -m venv .venv && .venv/bin/pip install -r scripts/pasay-gov/requirements.txt
+ocrmypdf>=16,<18

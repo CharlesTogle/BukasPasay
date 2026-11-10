@@ -1,0 +1,92 @@
+[
+  {
+    "endpoint": "GetListOfAnR",
+    "category": "Bids and Awards",
+    "archived_at": "2022-06-18",
+    "rows": 440
+  },
+  {
+    "endpoint": "GetListOfProcMonRep",
+    "category": "Procurement Monitoring Report",
+    "archived_at": "2022-06-18",
+    "rows": 1
+  },
+  {
+    "endpoint": "GetListOfABC",
+    "category": "ABC",
+    "archived_at": "2022-06-18",
+    "rows": 1
+  },
+  {
+    "endpoint": "GetListOfBidRes",
+    "category": "Bid Result",
+    "archived_at": "2022-06-18",
+    "rows": 0
+  },
+  {
+    "endpoint": "GetListOfBidNotAb",
+    "category": "Bid Notice Abstract",
+    "archived_at": "2022-06-18",
+    "rows": 0
+  },
+  {
+    "endpoint": "GetListOfAwaNotAb",
+    "category": "Award Notice Abstract",
+    "archived_at": "2022-06-18",
+    "rows": 0
+  },
+  {
+    "endpoint": "GetListOfNOANTPRESOPOCA",
+    "category": "NOA, NTP, RESO, PO/CA",
+    "archived_at": "2022-06-18",
+    "rows": 468
+  },
+  {
+    "endpoint": "GetListOfRequestForQoutation",
+    "category": "Request for Quotation",
+    "archived_at": "2022-06-18",
+    "rows": 197
+  },
+  {
+    "endpoint": "GetListOfAPP",
+    "category": "APP",
+    "archived_at": "2022-06-18",
+    "rows": 3
+  },
+  {
+    "endpoint": "GetListOfCashFlow",
+    "category": "Cash Flow",
+    "archived_at": "2022-06-18",
+    "rows": 15
+  },
+  {
+    "endpoint": "GetListOfBudget",
+    "category": "Budget",
+    "archived_at": "2022-06-18",
+    "rows": 112
+  },
+  {
+    "endpoint": "GetListOfDebtService",
+    "category": "Debt Service",
+    "archived_at": "2022-06-18",
+    "rows": 1
+  },
+  {
+    "endpoint": "GetListOfVacPositions",
+    "category": "Vacant Positions",
+    "archived_at": "2022-06-18",
+    "rows": 26
+  },
+  {
+    "endpoint": "GetListOfCityOrd",
+    "category": "City Ordinances",
+    "archived_at": "2022-06-18",
+    "rows": 1
+  },
+  {
+    "endpoint": "GetListOfResol",
+    "category": "Resolutions",
+    "archived_at": "2022-06-18",
+    "rows": 2
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "checked": "2026-11-09",
+  "findings": [
+    {
+      "id": "bulletin-files-not-migrated",
+      "question": "Why do most bulletin entries (2020-2025) have no documents?",
+      "conclusion": "The documents existed. The old pasay.gov.ph (an ASP.NET site, replaced by WordPress in late 2025/2026) attached a file to each bulletin entry and served it from its database. The new site imported the entries as text and did not migrate the files. The old file endpoints now redirect to the new site, so the files are no longer downloadable from pasay.gov.ph.",
+      "status": "confirmed",
+      "evidence": [
+        "Pre-2026 bulletin entries on the new site hold a title only: no content, no attachment, and an empty document slot on the listing page (e.g. post 14382, RFQ21-04-016).",
+        "They were bulk-imported: created and modified at exactly 00:00:00 on the posting date, post ids 13955-19180 sit next to 2026 posts (18375+), and some descriptions end in CSV residue such as \",12/9/2024\".",
+        "The WordPress media library holds 0 files uploaded before 2026-01-01; 1,510 of the 1,525 linked documents are in uploads/2026/.",
+        "The old site's Bulletin page (Wayback, 2023-02 to 2025-11) had the same categories and a PDF viewer under its table; its script (Scripts/userdefine/jsMainMenu_2.js) loaded each row's file from /GeneralInfo/Get<Category>Images?imgId=<Id> and showed it when result.ext was \"pdf\".",
+        "The Wayback Machine captured the old lists on 2022-06-18 (1,267 records, saved in legacy-2022/) but not the files: crawlers do not click rows, and the one capture of a file endpoint, without an imgId, returned {\"data\":\"\"}.",
+        "Today /GeneralInfo/GetListOfBudget and /GeneralInfo/GetBudgetImages?imgId=1 answer 301 (redirect to the new site)."
+      ],
+      "recovery": [
+        "Ask the City of Pasay for the files under Freedom of Information, citing the old record ids in legacy-2022/ (e.g. Budget id 3114, FRO as of April 30, 2022).",
+        "FROs, SAAOBs and 20% IRA utilization reports may be on DBM's Full Disclosure Policy portal; COA annual audit reports cover each year's finances.",
+        "About 100 PDFs from an earlier site (2011-2017: budgets, SAAOBs, financial reports, FDP reports, APPs, cash flows under /images/) are still in the Wayback Machine as plain files."
+      ]
+    },
+    {
+      "id": "earlier-site-files",
+      "question": "Did the city publish budget documents before 2020?",
+      "conclusion": "Yes. An earlier site served them as plain files under /images/Bids&Awards/Budget/ and /images/fdp/; those URLs now return 404, but the Wayback Machine archived some.",
+      "status": "confirmed",
+      "evidence": [
+        "Wayback holds 28 PDFs under /images/Bids&Awards/Budget/ (annual budgets 2011, 2012, 2016; SAAOB/SAOB 2012-2017; financial reports 2016-2017), 47 under /images/fdp/2015-2016, 16 APPs and 7 cash flows.",
+        "http://pasay.gov.ph/images/Bids&Awards/Budget/budget-2016.pdf and .../saaob-01-2017.pdf return 404 today."
+      ]
+    }
+  ]
+}
