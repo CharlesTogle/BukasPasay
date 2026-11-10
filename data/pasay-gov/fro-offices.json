@@ -1,0 +1,445 @@
+{
+ "about": "Current-year General Fund office rows of the FRO (LBAc Form No. 2), in printed order per sector, typed from the scan of the FRO as of September 30, 2026. Supplemental-budget rows and totals are not listed. `printed` is the row number as printed (the city printed 33 twice). `department_id` is the post ID in https://pasay.gov.ph/wp-json/wp/v2/departments where the same office is listed there; empty otherwise.",
+ "sectors": {
+  "GPSS": [
+   {
+    "printed": "1",
+    "implementing_unit": "Office of the Mayor",
+    "mfo_ppa": "Executive Governance Program",
+    "department_id": 13672
+   },
+   {
+    "printed": "2",
+    "implementing_unit": "Office of the Mayor",
+    "mfo_ppa": "Non-Office Program",
+    "department_id": 13672
+   },
+   {
+    "printed": "3",
+    "implementing_unit": "Office of the Vice Mayor",
+    "mfo_ppa": "Legislative Prorgam",
+    "department_id": null
+   },
+   {
+    "printed": "4",
+    "implementing_unit": "Sangguniang Panglungsod",
+    "mfo_ppa": "Legislative Prorgam",
+    "department_id": null
+   },
+   {
+    "printed": "5",
+    "implementing_unit": "Secretary to the Sangguniang Panglungsod",
+    "mfo_ppa": "Legislative Prorgam",
+    "department_id": null
+   },
+   {
+    "printed": "6",
+    "implementing_unit": "City Budget Office",
+    "mfo_ppa": "Budget Management Program",
+    "department_id": 13679
+   },
+   {
+    "printed": "7",
+    "implementing_unit": "City Accountant's Office",
+    "mfo_ppa": "Financial Accounting and Reporting Program",
+    "department_id": 13687
+   },
+   {
+    "printed": "8",
+    "implementing_unit": "City Treasurer's Office",
+    "mfo_ppa": "Treasury Operations Program",
+    "department_id": 13663
+   },
+   {
+    "printed": "9",
+    "implementing_unit": "City Assessor's Office",
+    "mfo_ppa": "Appraisal and Assessment of Real Property Program",
+    "department_id": 13664
+   },
+   {
+    "printed": "10",
+    "implementing_unit": "Local Civil Registry Office",
+    "mfo_ppa": "Civil Registry Program",
+    "department_id": 13667
+   },
+   {
+    "printed": "11",
+    "implementing_unit": "Pasay City Public Library",
+    "mfo_ppa": "Public Library Program",
+    "department_id": 13684
+   },
+   {
+    "printed": "12",
+    "implementing_unit": "Public Information Office",
+    "mfo_ppa": "Information Services Program",
+    "department_id": 13681
+   },
+   {
+    "printed": "13",
+    "implementing_unit": "City Prosecutor's Office",
+    "mfo_ppa": "Prosecution Services Program",
+    "department_id": 13653
+   },
+   {
+    "printed": "14",
+    "implementing_unit": "Board of Tax Appeal",
+    "mfo_ppa": "RPT Assessment Appeals Program",
+    "department_id": 13669
+   },
+   {
+    "printed": "15",
+    "implementing_unit": "Internal Audit Services Office",
+    "mfo_ppa": "Auditing Services Program",
+    "department_id": 13696
+   },
+   {
+    "printed": "16",
+    "implementing_unit": "City Legal Office",
+    "mfo_ppa": "Legal Services Program",
+    "department_id": 13674
+   },
+   {
+    "printed": "17",
+    "implementing_unit": "City Administrator's Office",
+    "mfo_ppa": "Management and Administration Program",
+    "department_id": 13673
+   },
+   {
+    "printed": "18",
+    "implementing_unit": "City Planning and Development Office",
+    "mfo_ppa": "Planning, Monitoring and Evaluation Program",
+    "department_id": 13678
+   },
+   {
+    "printed": "19",
+    "implementing_unit": "City General Services Office",
+    "mfo_ppa": "General Services Program",
+    "department_id": 13665
+   },
+   {
+    "printed": "20",
+    "implementing_unit": "Human Resource Management Office",
+    "mfo_ppa": "Human Resource Management Program",
+    "department_id": 13682
+   },
+   {
+    "printed": "21",
+    "implementing_unit": "Information and Communications Technology Office",
+    "mfo_ppa": "Information and Communications Technology Program",
+    "department_id": 13666
+   },
+   {
+    "printed": "22",
+    "implementing_unit": "People's Law Enforcement Board",
+    "mfo_ppa": "Administration of Justice Services Program",
+    "department_id": 13670
+   },
+   {
+    "printed": "23",
+    "implementing_unit": "City Cooperative Office",
+    "mfo_ppa": "Cooperative Development Program",
+    "department_id": 13693
+   },
+   {
+    "printed": "24",
+    "implementing_unit": "City Engineer's Office",
+    "mfo_ppa": "Engineering & Infrastructure Management Program",
+    "department_id": 13690
+   },
+   {
+    "printed": "25",
+    "implementing_unit": "City University of Pasay",
+    "mfo_ppa": "Tertiary Education Program",
+    "department_id": 13654
+   },
+   {
+    "printed": "26",
+    "implementing_unit": "Derham Park and Sports Complex",
+    "mfo_ppa": "Sports Center and Playground Maintenance Program",
+    "department_id": 13651
+   },
+   {
+    "printed": "27",
+    "implementing_unit": "Office of the City Building Official",
+    "mfo_ppa": "Building Regulation Program",
+    "department_id": null
+   },
+   {
+    "printed": "28",
+    "implementing_unit": "Pasay City Barangay Bureau",
+    "mfo_ppa": "Community Development Program",
+    "department_id": 13685
+   },
+   {
+    "printed": "29",
+    "implementing_unit": "Pasay City Disaster Risk Reduction and Management Office",
+    "mfo_ppa": "Disaster Management Program",
+    "department_id": 13691
+   },
+   {
+    "printed": "30",
+    "implementing_unit": "Pasay City Public Market",
+    "mfo_ppa": "Market Management",
+    "department_id": 13660
+   },
+   {
+    "printed": "31",
+    "implementing_unit": "Pasay Social Welfare Department",
+    "mfo_ppa": "Social and Welfare Development Program",
+    "department_id": 13677
+   },
+   {
+    "printed": "32",
+    "implementing_unit": "Public Order and Safety Unit",
+    "mfo_ppa": "Public Order and Safety",
+    "department_id": 13689
+   },
+   {
+    "printed": "33",
+    "implementing_unit": "Urban Development and Housing Office",
+    "mfo_ppa": "Housing and Community Development",
+    "department_id": 13676
+   },
+   {
+    "printed": "33",
+    "implementing_unit": "Bureau of Fire Protection - Pasay",
+    "mfo_ppa": "Fire Prevention Program",
+    "department_id": null
+   },
+   {
+    "printed": "34",
+    "implementing_unit": "Bureau of Jail Management and Penology",
+    "mfo_ppa": "Subsidy to NGAs - BJMP Pasay",
+    "department_id": null
+   },
+   {
+    "printed": "35",
+    "implementing_unit": "Commission on Audit",
+    "mfo_ppa": "Auditing Services Program",
+    "department_id": null
+   },
+   {
+    "printed": "36",
+    "implementing_unit": "Commission on Elections - District 1 & 2",
+    "mfo_ppa": "Election Services Program",
+    "department_id": null
+   },
+   {
+    "printed": "37",
+    "implementing_unit": "Metropolitan Trial Court",
+    "mfo_ppa": "Administration of Justice Services Program",
+    "department_id": null
+   },
+   {
+    "printed": "38",
+    "implementing_unit": "Regional Trial Court",
+    "mfo_ppa": "Administration of Justice Services Program",
+    "department_id": null
+   },
+   {
+    "printed": "39",
+    "implementing_unit": "Pasay City - DILG",
+    "mfo_ppa": "LGU Monitoring and Evaluation Program",
+    "department_id": null
+   },
+   {
+    "printed": "40",
+    "implementing_unit": "Pasay City Police",
+    "mfo_ppa": "Police Program",
+    "department_id": null
+   },
+   {
+    "printed": "41",
+    "implementing_unit": "Public Attorney's Office",
+    "mfo_ppa": "Administration of Justice Services Program",
+    "department_id": null
+   }
+  ],
+  "SSS": [
+   {
+    "printed": "42",
+    "implementing_unit": "Office of the Mayor",
+    "mfo_ppa": "Executive Governance Program",
+    "department_id": 13672
+   },
+   {
+    "printed": "43",
+    "implementing_unit": "Office of the Mayor",
+    "mfo_ppa": "Non-Office Program",
+    "department_id": 13672
+   },
+   {
+    "printed": "44",
+    "implementing_unit": "Office of the Mayor",
+    "mfo_ppa": "Other Peace and Order",
+    "department_id": 13672
+   },
+   {
+    "printed": "45",
+    "implementing_unit": "Office of the Senior Citizens Affairs",
+    "mfo_ppa": "Senior Citizen's Welfare and Development Program",
+    "department_id": 13657
+   },
+   {
+    "printed": "46",
+    "implementing_unit": "City Planning and Development Office",
+    "mfo_ppa": "Planning, Monitoring and Evaluation Program",
+    "department_id": 13678
+   },
+   {
+    "printed": "47",
+    "implementing_unit": "City University of Pasay",
+    "mfo_ppa": "Tertiary Education Program",
+    "department_id": 13654
+   },
+   {
+    "printed": "48",
+    "implementing_unit": "Derham Park and Sports Complex",
+    "mfo_ppa": "Sports Center and Playground Maintenance Program",
+    "department_id": 13651
+   },
+   {
+    "printed": "49",
+    "implementing_unit": "Pasay City Barangay Bureau",
+    "mfo_ppa": "Community Development Program",
+    "department_id": 13685
+   },
+   {
+    "printed": "50",
+    "implementing_unit": "Pasay Social Welfare Department",
+    "mfo_ppa": "Social and Welfare Development Program",
+    "department_id": 13677
+   },
+   {
+    "printed": "51",
+    "implementing_unit": "Urban Development and Housing Office",
+    "mfo_ppa": "Housing and Community Development",
+    "department_id": 13676
+   },
+   {
+    "printed": "52",
+    "implementing_unit": "City Health Office",
+    "mfo_ppa": "Preventive and Promotive Health Services Program",
+    "department_id": 13668
+   },
+   {
+    "printed": "53",
+    "implementing_unit": "Cuneta Astrodome",
+    "mfo_ppa": "Sports Center Maintenance Program",
+    "department_id": 13656
+   },
+   {
+    "printed": "54",
+    "implementing_unit": "Pasay City Employment Center",
+    "mfo_ppa": "Labor and Employment Promotion",
+    "department_id": null
+   },
+   {
+    "printed": "55",
+    "implementing_unit": "Pasay City General Hospital",
+    "mfo_ppa": "Tertiary Hospital Services Program",
+    "department_id": 13659
+   },
+   {
+    "printed": "56",
+    "implementing_unit": "Pasay City Public Cemetery & Crematorium",
+    "mfo_ppa": "Cemetery and Crematory Services Program",
+    "department_id": 13652
+   },
+   {
+    "printed": "57",
+    "implementing_unit": "Person with Disability Affair's Office",
+    "mfo_ppa": "PWD Welfare and Development Program",
+    "department_id": 13662
+   }
+  ],
+  "ESS": [
+   {
+    "printed": "58",
+    "implementing_unit": "City Administrator's Office",
+    "mfo_ppa": "Management and Administration Program",
+    "department_id": 13673
+   },
+   {
+    "printed": "59",
+    "implementing_unit": "City Cooperative Office",
+    "mfo_ppa": "Cooperative Development Program",
+    "department_id": 13693
+   },
+   {
+    "printed": "60",
+    "implementing_unit": "City Engineer's Office",
+    "mfo_ppa": "Engineering & Infrastructure Management Program",
+    "department_id": 13690
+   },
+   {
+    "printed": "61",
+    "implementing_unit": "Office of the City Building Official",
+    "mfo_ppa": "Building Regulation Program",
+    "department_id": null
+   },
+   {
+    "printed": "62",
+    "implementing_unit": "Pasay City Public Market",
+    "mfo_ppa": "Market Management",
+    "department_id": 13660
+   },
+   {
+    "printed": "63",
+    "implementing_unit": "City Tourism and Cultural Development Office",
+    "mfo_ppa": "Tourism Promotion",
+    "department_id": 13694
+   },
+   {
+    "printed": "64",
+    "implementing_unit": "City Veterinarian's Office",
+    "mfo_ppa": "Veterinary Regulation Program",
+    "department_id": 13655
+   },
+   {
+    "printed": "65",
+    "implementing_unit": "Pasay City Environment and Natural Resources Office",
+    "mfo_ppa": "Environment and Natural Resources Program",
+    "department_id": 13686
+   },
+   {
+    "printed": "66",
+    "implementing_unit": "Pasay Traffic and Parking Management",
+    "mfo_ppa": "Traffic and Parking Management Program",
+    "department_id": 13658
+   }
+  ],
+  "OSS": [
+   {
+    "printed": "67",
+    "implementing_unit": "City Administrator's Office",
+    "mfo_ppa": "Management and Administration Program",
+    "department_id": 13673
+   },
+   {
+    "printed": "68",
+    "implementing_unit": "Office of the Mayor",
+    "mfo_ppa": "City Development Fund (CDF) - 20% NTA",
+    "department_id": 13672
+   },
+   {
+    "printed": "69",
+    "implementing_unit": "Office of the Mayor",
+    "mfo_ppa": "Local Council for the Protection of Children Program",
+    "department_id": 13672
+   },
+   {
+    "printed": "70",
+    "implementing_unit": "Office of the Mayor",
+    "mfo_ppa": "5% LDRRMF - Local Disaster Risk Management Fund",
+    "department_id": 13672
+   },
+   {
+    "printed": "71",
+    "implementing_unit": "Office of the Mayor - Financial Expenses",
+    "mfo_ppa": "Statutory and Mandatory Obligations",
+    "department_id": 13672
+   }
+  ]
+ }
+}

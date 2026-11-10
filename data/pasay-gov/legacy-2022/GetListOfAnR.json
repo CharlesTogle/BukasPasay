@@ -1,0 +1,3088 @@
+{
+ "category": "Bids and Awards",
+ "endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetListOfAnR",
+ "archived_at": "2022-06-18",
+ "source": "https://web.archive.org/web/20220618154311id_/https://www.pasay.gov.ph/GeneralInfo/GetListOfAnR",
+ "rows": [
+  {
+   "id": 1,
+   "title": "",
+   "description": "Addendum No. 20-10-014",
+   "posted": "2020-10-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1"
+  },
+  {
+   "id": 2,
+   "title": "ITB20-10-051",
+   "description": "Invitation to Bid (itb20-10-051)",
+   "posted": "2020-10-24T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=2"
+  },
+  {
+   "id": 3,
+   "title": "ITB20-10-050",
+   "description": "Invitation to Bid (itb20-10-050)",
+   "posted": "2020-10-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=3"
+  },
+  {
+   "id": 4,
+   "title": "ITB20-10-049",
+   "description": "Invitation to Bid (itb20-10-049)",
+   "posted": "2020-10-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=4"
+  },
+  {
+   "id": 5,
+   "title": "ITB20-10-048",
+   "description": "Invitation to Bid (itb20-10-048)",
+   "posted": "2020-10-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=5"
+  },
+  {
+   "id": 6,
+   "title": "PDIC - UPDC",
+   "description": "Invitation to Bid (Disposal of one (1) Lot Unserviceable CPE )",
+   "posted": "2020-10-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=6"
+  },
+  {
+   "id": 7,
+   "title": "ITB21-02-009",
+   "description": "ITB21-02-009",
+   "posted": "2021-02-23T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=7"
+  },
+  {
+   "id": 8,
+   "title": "ITB21-02-010",
+   "description": "ITB21-02-010",
+   "posted": "2021-02-23T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=8"
+  },
+  {
+   "id": 9,
+   "title": "ITB21-02-011",
+   "description": "ITB21-02-011",
+   "posted": "2021-02-23T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=9"
+  },
+  {
+   "id": 10,
+   "title": "ITB21-02-012",
+   "description": "ITB21-02-012",
+   "posted": "2021-02-23T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=10"
+  },
+  {
+   "id": 11,
+   "title": "ITB21-02-013",
+   "description": "ITB21-02-013",
+   "posted": "2021-02-23T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=11"
+  },
+  {
+   "id": 12,
+   "title": "ITB21-02-014",
+   "description": "ITB21-02-014",
+   "posted": "2021-02-23T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=12"
+  },
+  {
+   "id": 13,
+   "title": "ITB21-02-015",
+   "description": "ITB21-02-015",
+   "posted": "2021-02-23T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=13"
+  },
+  {
+   "id": 14,
+   "title": "ITB21-02-016",
+   "description": "ITB21-02-016",
+   "posted": "2021-02-23T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=14"
+  },
+  {
+   "id": 15,
+   "title": "ITB21-02-017",
+   "description": "ITB21-02-017",
+   "posted": "2021-03-08T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=15"
+  },
+  {
+   "id": 16,
+   "title": "ITB21-02-018",
+   "description": "ITB21-02-018",
+   "posted": "2021-03-08T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=16"
+  },
+  {
+   "id": 17,
+   "title": "ITB21-02-019",
+   "description": "ITB21-02-019",
+   "posted": "2021-03-08T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=17"
+  },
+  {
+   "id": 18,
+   "title": "ITB21-03-020",
+   "description": "ITB21-03-020",
+   "posted": "2021-03-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=18"
+  },
+  {
+   "id": 19,
+   "title": "ITB21-03-021",
+   "description": "ITB21-03-021",
+   "posted": "2021-03-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=19"
+  },
+  {
+   "id": 20,
+   "title": "ITB21-03-022",
+   "description": "ITB21-03-022",
+   "posted": "2021-03-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=20"
+  },
+  {
+   "id": 21,
+   "title": "ITB21-03-023",
+   "description": "ITB21-03-023",
+   "posted": "2021-03-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=21"
+  },
+  {
+   "id": 22,
+   "title": "ITB21-03-024",
+   "description": "ITB21-03-024",
+   "posted": "2021-03-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=22"
+  },
+  {
+   "id": 23,
+   "title": "ITB21-03-025",
+   "description": "ITB21-03-025",
+   "posted": "2021-03-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=23"
+  },
+  {
+   "id": 24,
+   "title": "ITB21-03-026",
+   "description": "ITB21-03-026",
+   "posted": "2021-03-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=24"
+  },
+  {
+   "id": 25,
+   "title": "ITB21-03-027",
+   "description": "ITB21-03-027",
+   "posted": "2021-03-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=25"
+  },
+  {
+   "id": 26,
+   "title": "ITB21-03-028",
+   "description": "ITB21-03-028",
+   "posted": "2021-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=26"
+  },
+  {
+   "id": 27,
+   "title": "ITB21-03-029",
+   "description": "ITB21-03-029",
+   "posted": "2021-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=27"
+  },
+  {
+   "id": 28,
+   "title": "ITB21-03-030",
+   "description": "ITB21-03-030",
+   "posted": "2021-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=28"
+  },
+  {
+   "id": 29,
+   "title": "ITB21-03-031",
+   "description": "ITB21-03-031",
+   "posted": "2021-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=29"
+  },
+  {
+   "id": 30,
+   "title": "ITB21-03-032",
+   "description": "ITB21-03-032",
+   "posted": "2021-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=30"
+  },
+  {
+   "id": 31,
+   "title": "ITB21-03-033",
+   "description": "ITB21-03-033",
+   "posted": "2021-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=31"
+  },
+  {
+   "id": 32,
+   "title": "ITB21-03-034",
+   "description": "ITB21-03-034",
+   "posted": "2021-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=32"
+  },
+  {
+   "id": 33,
+   "title": "ITB21-03-035",
+   "description": "ITB21-03-035",
+   "posted": "2021-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=33"
+  },
+  {
+   "id": 34,
+   "title": "ITB21-03-036",
+   "description": "ITB21-03-036",
+   "posted": "2021-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=34"
+  },
+  {
+   "id": 35,
+   "title": "ITB21-04-037",
+   "description": "ITB21-04-037",
+   "posted": "2021-04-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=35"
+  },
+  {
+   "id": 36,
+   "title": "ITB21-04-038",
+   "description": "ITB21-04-038",
+   "posted": "2021-04-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=36"
+  },
+  {
+   "id": 37,
+   "title": "ITB21-04-039",
+   "description": "ITB21-04-039",
+   "posted": "2021-04-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=37"
+  },
+  {
+   "id": 38,
+   "title": "ITB21-04-040",
+   "description": "ITB21-04-040",
+   "posted": "2021-04-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=38"
+  },
+  {
+   "id": 39,
+   "title": "ITB21-04-041",
+   "description": "ITB21-04-041",
+   "posted": "2021-04-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=39"
+  },
+  {
+   "id": 40,
+   "title": "ITB21-04-042",
+   "description": "ITB21-04-042",
+   "posted": "2021-04-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=40"
+  },
+  {
+   "id": 41,
+   "title": "ITB21-04-043",
+   "description": "ITB21-04-043",
+   "posted": "2021-04-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=41"
+  },
+  {
+   "id": 42,
+   "title": "ITB21-04-044",
+   "description": "ITB21-04-044",
+   "posted": "2021-04-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=42"
+  },
+  {
+   "id": 43,
+   "title": "ITB21-04-045",
+   "description": "ITB21-04-045",
+   "posted": "2021-04-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=43"
+  },
+  {
+   "id": 44,
+   "title": "ITB21-04-046",
+   "description": "ITB21-04-046",
+   "posted": "2021-04-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=44"
+  },
+  {
+   "id": 45,
+   "title": "ITB21-04-047",
+   "description": "ITB21-04-047",
+   "posted": "2021-04-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=45"
+  },
+  {
+   "id": 46,
+   "title": "ITB21-04-048",
+   "description": "ITB21-04-048",
+   "posted": "2021-04-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=46"
+  },
+  {
+   "id": 47,
+   "title": "ITB21-04-049",
+   "description": "ITB21-04-049",
+   "posted": "2021-04-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=47"
+  },
+  {
+   "id": 48,
+   "title": "ITB21-04-050",
+   "description": "ITB21-04-050",
+   "posted": "2021-04-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=48"
+  },
+  {
+   "id": 49,
+   "title": "ITB21-04-051",
+   "description": "ITB21-04-051",
+   "posted": "2021-04-29T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=49"
+  },
+  {
+   "id": 50,
+   "title": "ITB21-04-052",
+   "description": "ITB21-04-052",
+   "posted": "2021-04-29T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=50"
+  },
+  {
+   "id": 51,
+   "title": "ITB21-04-053",
+   "description": "ITB21-04-053",
+   "posted": "2021-04-29T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=51"
+  },
+  {
+   "id": 52,
+   "title": "ITB21-04-054",
+   "description": "ITB21-04-054",
+   "posted": "2021-04-29T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=52"
+  },
+  {
+   "id": 53,
+   "title": "ITB21-04-055",
+   "description": "ITB21-04-055",
+   "posted": "2021-04-29T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=53"
+  },
+  {
+   "id": 54,
+   "title": "ITB21-04-056",
+   "description": "ITB21-04-056",
+   "posted": "2021-04-29T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=54"
+  },
+  {
+   "id": 55,
+   "title": "Addendum No. 21-04-008",
+   "description": "Addendum No. 21-04-008",
+   "posted": "2021-04-27T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=55"
+  },
+  {
+   "id": 56,
+   "title": "ITB21-03-022",
+   "description": "Notice of Cancellation (Project Identification No. ITB21-03-022)",
+   "posted": "2021-04-05T17:14:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=56"
+  },
+  {
+   "id": 57,
+   "title": "ITB21-05-057",
+   "description": "ITB21-05-057",
+   "posted": "2021-05-11T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=57"
+  },
+  {
+   "id": 58,
+   "title": "ITB21-05-058",
+   "description": "ITB21-05-058",
+   "posted": "2021-05-11T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=58"
+  },
+  {
+   "id": 59,
+   "title": "ITB21-05-059",
+   "description": "ITB21-05-059",
+   "posted": "2021-05-11T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=59"
+  },
+  {
+   "id": 60,
+   "title": "ITB21-05-060",
+   "description": "ITB21-05-060",
+   "posted": "2021-05-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=60"
+  },
+  {
+   "id": 61,
+   "title": "ITB21-05-061",
+   "description": "ITB21-05-061",
+   "posted": "2021-05-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=61"
+  },
+  {
+   "id": 62,
+   "title": "ITB21-05-062",
+   "description": "ITB21-05-062",
+   "posted": "2021-05-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=62"
+  },
+  {
+   "id": 63,
+   "title": "ITB21-05-063",
+   "description": "ITB21-05-063",
+   "posted": "2021-05-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=63"
+  },
+  {
+   "id": 64,
+   "title": "ITB21-05-064",
+   "description": "ITB21-05-064",
+   "posted": "2021-05-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=64"
+  },
+  {
+   "id": 65,
+   "title": "ITB21-05-065",
+   "description": "ITB21-05-065",
+   "posted": "2021-05-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=65"
+  },
+  {
+   "id": 66,
+   "title": "ITB21-05-066",
+   "description": "ITB21-05-066",
+   "posted": "2021-05-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=66"
+  },
+  {
+   "id": 67,
+   "title": "ITB21-05-067",
+   "description": "ITB21-05-067",
+   "posted": "2021-05-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=67"
+  },
+  {
+   "id": 68,
+   "title": "ITB21-05-068",
+   "description": "ITB21-05-068",
+   "posted": "2021-05-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=68"
+  },
+  {
+   "id": 69,
+   "title": "ITB21-05-069",
+   "description": "ITB21-05-069",
+   "posted": "2021-05-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=69"
+  },
+  {
+   "id": 70,
+   "title": "ITB21-05-070",
+   "description": "ITB21-05-070",
+   "posted": "2021-05-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=70"
+  },
+  {
+   "id": 71,
+   "title": "ITB21-05-071",
+   "description": "ITB21-05-071",
+   "posted": "2021-05-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=71"
+  },
+  {
+   "id": 72,
+   "title": "ITB21-05-072",
+   "description": "ITB21-05-072",
+   "posted": "2021-05-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=72"
+  },
+  {
+   "id": 73,
+   "title": "Addendum No. 21-05-009",
+   "description": "Addendum No. 21-05-009",
+   "posted": "2021-05-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=73"
+  },
+  {
+   "id": 74,
+   "title": "ITB21-05-073",
+   "description": "ITB21-05-073",
+   "posted": "2021-05-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=74"
+  },
+  {
+   "id": 75,
+   "title": "ITB21-05-074",
+   "description": "ITB21-05-074",
+   "posted": "2021-05-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=75"
+  },
+  {
+   "id": 76,
+   "title": "ITB21-05-075",
+   "description": "ITB21-05-075",
+   "posted": "2021-05-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=76"
+  },
+  {
+   "id": 77,
+   "title": "ITB21-05-076",
+   "description": "ITB21-05-076",
+   "posted": "2021-05-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=77"
+  },
+  {
+   "id": 78,
+   "title": "ITB21-05-077",
+   "description": "ITB21-05-077",
+   "posted": "2021-06-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=78"
+  },
+  {
+   "id": 79,
+   "title": "ITB21-05-078",
+   "description": "ITB21-05-078",
+   "posted": "2021-06-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=79"
+  },
+  {
+   "id": 80,
+   "title": "ITB21-05-079",
+   "description": "ITB21-05-079",
+   "posted": "2021-06-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=80"
+  },
+  {
+   "id": 81,
+   "title": "ITB21-05-080",
+   "description": "ITB21-05-080",
+   "posted": "2021-06-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=81"
+  },
+  {
+   "id": 82,
+   "title": "ITB21-05-081",
+   "description": "ITB21-05-081",
+   "posted": "2021-06-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=82"
+  },
+  {
+   "id": 83,
+   "title": "ITB21-05-082",
+   "description": "ITB21-05-082",
+   "posted": "2021-06-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=83"
+  },
+  {
+   "id": 84,
+   "title": "ITB21-05-083",
+   "description": "ITB21-05-083",
+   "posted": "2021-06-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=84"
+  },
+  {
+   "id": 85,
+   "title": "ITB21-05-084",
+   "description": "ITB21-05-084",
+   "posted": "2021-06-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=85"
+  },
+  {
+   "id": 86,
+   "title": "ITB21-06-085",
+   "description": "ITB21-06-085",
+   "posted": "2021-06-15T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=86"
+  },
+  {
+   "id": 87,
+   "title": "ITB21-06-086",
+   "description": "ITB21-06-086",
+   "posted": "2021-06-15T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=87"
+  },
+  {
+   "id": 88,
+   "title": "ITB21-06-087",
+   "description": "ITB21-06-087",
+   "posted": "2021-06-15T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=88"
+  },
+  {
+   "id": 89,
+   "title": "ITB21-06-088",
+   "description": "ITB21-06-088",
+   "posted": "2021-06-15T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=89"
+  },
+  {
+   "id": 90,
+   "title": "ITB21-06-089",
+   "description": "ITB21-06-089",
+   "posted": "2021-06-15T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=90"
+  },
+  {
+   "id": 91,
+   "title": "ITB21-06-090",
+   "description": "ITB21-06-090",
+   "posted": "2021-06-15T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=91"
+  },
+  {
+   "id": 92,
+   "title": "ITB21-06-091",
+   "description": "ITB21-06-091",
+   "posted": "2021-06-15T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=92"
+  },
+  {
+   "id": 93,
+   "title": "ITB21-06-092",
+   "description": "ITB21-06-092",
+   "posted": "2021-06-15T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=93"
+  },
+  {
+   "id": 94,
+   "title": "ITB21-06-093",
+   "description": "ITB21-06-093",
+   "posted": "2021-06-15T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=94"
+  },
+  {
+   "id": 95,
+   "title": "ITB21-06-094",
+   "description": "ITB21-06-094",
+   "posted": "2021-06-15T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=95"
+  },
+  {
+   "id": 96,
+   "title": "ITB21-06-095",
+   "description": "ITB21-06-095",
+   "posted": "2021-06-15T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=96"
+  },
+  {
+   "id": 97,
+   "title": "Addendum No. 21-06-010",
+   "description": "Addendum No. 21-06-010",
+   "posted": "2021-06-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=97"
+  },
+  {
+   "id": 98,
+   "title": "ITB21-06-096",
+   "description": "ITB21-06-096",
+   "posted": "2021-06-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=98"
+  },
+  {
+   "id": 99,
+   "title": "ITB21-06-097",
+   "description": "ITB21-06-097",
+   "posted": "2021-06-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=99"
+  },
+  {
+   "id": 100,
+   "title": "ITB21-06-098",
+   "description": "ITB21-06-098",
+   "posted": "2021-06-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=100"
+  },
+  {
+   "id": 101,
+   "title": "ITB21-06-099",
+   "description": "ITB21-06-099",
+   "posted": "2021-06-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=101"
+  },
+  {
+   "id": 102,
+   "title": "ITB21-06-100",
+   "description": "ITB21-06-100",
+   "posted": "2021-06-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=102"
+  },
+  {
+   "id": 103,
+   "title": "ITB21-06-101",
+   "description": "ITB21-06-101",
+   "posted": "2021-06-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=103"
+  },
+  {
+   "id": 104,
+   "title": "ITB21-06-102",
+   "description": "ITB21-06-102",
+   "posted": "2021-06-29T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=104"
+  },
+  {
+   "id": 105,
+   "title": "ITB21-06-103",
+   "description": "ITB21-06-103",
+   "posted": "2021-06-29T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=105"
+  },
+  {
+   "id": 106,
+   "title": "ITB21-07-104",
+   "description": "ITB21-07-104",
+   "posted": "2021-07-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=106"
+  },
+  {
+   "id": 107,
+   "title": "ITB21-07-105",
+   "description": "ITB21-07-105",
+   "posted": "2021-07-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=107"
+  },
+  {
+   "id": 108,
+   "title": "ITB21-07-106",
+   "description": "ITB21-07-106",
+   "posted": "2021-07-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=108"
+  },
+  {
+   "id": 109,
+   "title": "ITB21-07-107",
+   "description": "ITB21-07-107",
+   "posted": "2021-07-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=109"
+  },
+  {
+   "id": 110,
+   "title": "ITB21-07-108",
+   "description": "ITB21-07-108",
+   "posted": "2021-07-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=110"
+  },
+  {
+   "id": 111,
+   "title": "ITB21-07-109",
+   "description": "ITB21-07-109",
+   "posted": "2021-07-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=111"
+  },
+  {
+   "id": 112,
+   "title": "ITB21-07-110",
+   "description": "ITB21-07-110",
+   "posted": "2021-07-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=112"
+  },
+  {
+   "id": 113,
+   "title": "ITB21-07-111",
+   "description": "ITB21-07-111",
+   "posted": "2021-07-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=113"
+  },
+  {
+   "id": 114,
+   "title": "ITB21-07-112",
+   "description": "ITB21-07-112",
+   "posted": "2021-07-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=114"
+  },
+  {
+   "id": 115,
+   "title": "Addendum No. 21-07-011",
+   "description": "Addendum No. 21-07-011",
+   "posted": "2021-07-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=115"
+  },
+  {
+   "id": 116,
+   "title": "ITB21-07-113",
+   "description": "ITB21-07-113",
+   "posted": "2021-07-16T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=116"
+  },
+  {
+   "id": 117,
+   "title": "ITB21-07-114",
+   "description": "ITB21-07-114",
+   "posted": "2021-07-16T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=117"
+  },
+  {
+   "id": 118,
+   "title": "ITB21-07-115",
+   "description": "ITB21-07-115",
+   "posted": "2021-07-16T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=118"
+  },
+  {
+   "id": 119,
+   "title": "ITB21-07-116",
+   "description": "ITB21-07-116",
+   "posted": "2021-07-16T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=119"
+  },
+  {
+   "id": 120,
+   "title": "ITB21-07-117",
+   "description": "ITB21-07-117",
+   "posted": "2021-07-16T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=120"
+  },
+  {
+   "id": 121,
+   "title": "ITB21-07-118",
+   "description": "ITB21-07-118",
+   "posted": "2021-07-16T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=121"
+  },
+  {
+   "id": 122,
+   "title": "Addendum No. 21-07-012",
+   "description": "Addendum No. 21-07-012",
+   "posted": "2021-07-19T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=122"
+  },
+  {
+   "id": 123,
+   "title": "ITB21-07-119",
+   "description": "ITB21-07-119",
+   "posted": "2021-07-30T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=123"
+  },
+  {
+   "id": 124,
+   "title": "ITB",
+   "description": "1 Lot waste materials from Office of the President Disposal Committee (OPDC)",
+   "posted": "2021-08-26T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=124"
+  },
+  {
+   "id": 125,
+   "title": "ITB21-07-120",
+   "description": "ITB21-07-120",
+   "posted": "2021-08-05T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=125"
+  },
+  {
+   "id": 126,
+   "title": "ITB21-07-121",
+   "description": "ITB21-07-121",
+   "posted": "2021-08-05T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=126"
+  },
+  {
+   "id": 127,
+   "title": "ITB21-07-122",
+   "description": "ITB21-07-122",
+   "posted": "2021-08-05T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=127"
+  },
+  {
+   "id": 128,
+   "title": "ITB21-08-123",
+   "description": "ITB21-08-123",
+   "posted": "2021-08-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=128"
+  },
+  {
+   "id": 129,
+   "title": "ITB21-08-124",
+   "description": "ITB21-08-124",
+   "posted": "2021-08-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=129"
+  },
+  {
+   "id": 130,
+   "title": "ITB21-08-125",
+   "description": "ITB21-08-125",
+   "posted": "2021-08-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=130"
+  },
+  {
+   "id": 131,
+   "title": "ITB21-08-126",
+   "description": "ITB21-08-126",
+   "posted": "2021-08-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=131"
+  },
+  {
+   "id": 132,
+   "title": "ITB21-08-127",
+   "description": "ITB21-08-127",
+   "posted": "2021-08-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=132"
+  },
+  {
+   "id": 133,
+   "title": "ITB",
+   "description": "1 Lot unserviceable Properties, Plants and Equipment (PPEs) on \"as is where is\" from Office of the President Disposal Committee (OPDC)",
+   "posted": "2021-09-10T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=133"
+  },
+  {
+   "id": 134,
+   "title": "ITB21-09-128",
+   "description": "ITB21-09-128",
+   "posted": "2021-09-10T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=134"
+  },
+  {
+   "id": 135,
+   "title": "ITB21-09-129",
+   "description": "ITB21-09-129",
+   "posted": "2021-09-10T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=135"
+  },
+  {
+   "id": 136,
+   "title": "ITB21-09-130",
+   "description": "ITB21-09-130",
+   "posted": "2021-09-21T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=136"
+  },
+  {
+   "id": 137,
+   "title": "ITB21-09-131",
+   "description": "ITB21-09-131",
+   "posted": "2021-09-21T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=137"
+  },
+  {
+   "id": 138,
+   "title": "ITB21-09-132",
+   "description": "ITB21-09-132",
+   "posted": "2021-09-21T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=138"
+  },
+  {
+   "id": 139,
+   "title": "ITB21-09-133",
+   "description": "ITB21-09-133",
+   "posted": "2021-09-21T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=139"
+  },
+  {
+   "id": 140,
+   "title": "ITB21-09-134",
+   "description": "ITB21-09-134",
+   "posted": "2021-09-21T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=140"
+  },
+  {
+   "id": 141,
+   "title": "ITB21-09-135",
+   "description": "ITB21-09-135",
+   "posted": "2021-09-21T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=141"
+  },
+  {
+   "id": 142,
+   "title": "ITB21-09-136",
+   "description": "ITB21-09-136",
+   "posted": "2021-09-21T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=142"
+  },
+  {
+   "id": 143,
+   "title": "ITB21-09-137",
+   "description": "ITB21-09-137",
+   "posted": "2021-09-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=143"
+  },
+  {
+   "id": 144,
+   "title": "ITB21-09-138",
+   "description": "ITB21-09-138",
+   "posted": "2021-09-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=144"
+  },
+  {
+   "id": 145,
+   "title": "ITB21-09-139",
+   "description": "ITB21-09-139",
+   "posted": "2021-09-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=145"
+  },
+  {
+   "id": 146,
+   "title": "ITB21-09-140",
+   "description": "ITB21-09-140",
+   "posted": "2021-09-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=146"
+  },
+  {
+   "id": 147,
+   "title": "ITB21-09-141",
+   "description": "ITB21-09-141",
+   "posted": "2021-09-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=147"
+  },
+  {
+   "id": 148,
+   "title": "ITB21-09-142",
+   "description": "ITB21-09-142",
+   "posted": "2021-09-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=148"
+  },
+  {
+   "id": 149,
+   "title": "ITB21-10-143",
+   "description": "ITB21-10-143",
+   "posted": "2021-10-04T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=149"
+  },
+  {
+   "id": 150,
+   "title": "ITB21-10-144",
+   "description": "ITB21-10-144",
+   "posted": "2021-10-04T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=150"
+  },
+  {
+   "id": 151,
+   "title": "ITB21-10-145",
+   "description": "ITB21-10-145",
+   "posted": "2021-10-12T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=151"
+  },
+  {
+   "id": 152,
+   "title": "ITB21-10-146",
+   "description": "ITB21-10-146",
+   "posted": "2021-10-12T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=152"
+  },
+  {
+   "id": 153,
+   "title": "ITB21-10-147",
+   "description": "ITB21-10-147",
+   "posted": "2021-10-12T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=153"
+  },
+  {
+   "id": 154,
+   "title": "ITB21-10-148",
+   "description": "ITB21-10-148",
+   "posted": "2021-10-12T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=154"
+  },
+  {
+   "id": 155,
+   "title": "ITB21-10-149",
+   "description": "ITB21-10-149",
+   "posted": "2021-10-12T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=155"
+  },
+  {
+   "id": 156,
+   "title": "ITB21-10-150",
+   "description": "ITB21-10-150",
+   "posted": "2021-10-12T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=156"
+  },
+  {
+   "id": 157,
+   "title": "ITB21-10-151",
+   "description": "ITB21-10-151",
+   "posted": "2021-10-12T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=157"
+  },
+  {
+   "id": 158,
+   "title": "ITB21-10-152",
+   "description": "ITB21-10-152",
+   "posted": "2021-10-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=158"
+  },
+  {
+   "id": 159,
+   "title": "ITB21-10-153",
+   "description": "ITB21-10-153",
+   "posted": "2021-10-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=159"
+  },
+  {
+   "id": 160,
+   "title": "ITB21-10-154",
+   "description": "ITB21-10-154",
+   "posted": "2021-10-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=160"
+  },
+  {
+   "id": 161,
+   "title": "ITB21-10-155",
+   "description": "ITB21-10-155",
+   "posted": "2021-10-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=161"
+  },
+  {
+   "id": 162,
+   "title": "ITB21-10-156",
+   "description": "ITB21-10-156",
+   "posted": "2021-10-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=162"
+  },
+  {
+   "id": 163,
+   "title": "ITB21-10-157",
+   "description": "ITB21-10-157",
+   "posted": "2021-10-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=163"
+  },
+  {
+   "id": 164,
+   "title": "ITB21-10-158",
+   "description": "ITB21-10-158",
+   "posted": "2021-10-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=164"
+  },
+  {
+   "id": 165,
+   "title": "ITB (Notice of Sale)",
+   "description": "Waste and Scrap from the UPDC of Philippine Deposit Insurance Corporation",
+   "posted": "2021-10-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=165"
+  },
+  {
+   "id": 166,
+   "title": "ITB21-10-159",
+   "description": "ITB21-10-159",
+   "posted": "2021-11-02T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=166"
+  },
+  {
+   "id": 167,
+   "title": "ITB21-10-160",
+   "description": "ITB21-10-160",
+   "posted": "2021-11-02T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=167"
+  },
+  {
+   "id": 168,
+   "title": "Addendum No. 21-10-013",
+   "description": "Addendum No. 21-10-013",
+   "posted": "2021-11-02T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=168"
+  },
+  {
+   "id": 169,
+   "title": "ITB21-10-161",
+   "description": "ITB21-10-161",
+   "posted": "2021-11-04T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=169"
+  },
+  {
+   "id": 170,
+   "title": "ITB21-10-162",
+   "description": "ITB21-10-162",
+   "posted": "2021-11-04T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=170"
+  },
+  {
+   "id": 171,
+   "title": "ITB21-10-163",
+   "description": "ITB21-10-163",
+   "posted": "2021-11-04T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=171"
+  },
+  {
+   "id": 172,
+   "title": "ITB21-10-164",
+   "description": "ITB21-10-164",
+   "posted": "2021-11-04T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=172"
+  },
+  {
+   "id": 173,
+   "title": "ITB21-10-165",
+   "description": "ITB21-10-165",
+   "posted": "2021-11-04T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=173"
+  },
+  {
+   "id": 174,
+   "title": "ITB21-10-166",
+   "description": "ITB21-10-166",
+   "posted": "2021-11-04T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=174"
+  },
+  {
+   "id": 175,
+   "title": "ITB21-10-167",
+   "description": "ITB21-10-167",
+   "posted": "2021-11-04T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=175"
+  },
+  {
+   "id": 176,
+   "title": "ITB21-10-168",
+   "description": "ITB21-10-168",
+   "posted": "2021-11-04T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=176"
+  },
+  {
+   "id": 177,
+   "title": "ITB21-10-169",
+   "description": "ITB21-10-169",
+   "posted": "2021-11-04T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=177"
+  },
+  {
+   "id": 178,
+   "title": "ITB21-10-170",
+   "description": "ITB21-10-170",
+   "posted": "2021-11-04T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=178"
+  },
+  {
+   "id": 179,
+   "title": "ITB21-11-171",
+   "description": "ITB21-11-171",
+   "posted": "2021-11-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=179"
+  },
+  {
+   "id": 180,
+   "title": "ITB21-11-172",
+   "description": "ITB21-11-172",
+   "posted": "2021-11-15T17:06:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=180"
+  },
+  {
+   "id": 181,
+   "title": "ITB21-11-173",
+   "description": "ITB21-11-173",
+   "posted": "2021-11-16T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=181"
+  },
+  {
+   "id": 182,
+   "title": "ITB21-11-174",
+   "description": "ITB21-11-174",
+   "posted": "2021-11-16T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=182"
+  },
+  {
+   "id": 183,
+   "title": "ITB21-11-175",
+   "description": "ITB21-11-175",
+   "posted": "2021-11-16T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=183"
+  },
+  {
+   "id": 184,
+   "title": "ITB21-11-176",
+   "description": "ITB21-11-176",
+   "posted": "2021-11-16T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=184"
+  },
+  {
+   "id": 185,
+   "title": "ITB21-11-177",
+   "description": "ITB21-11-177",
+   "posted": "2021-11-16T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=185"
+  },
+  {
+   "id": 186,
+   "title": "ITB21-11-178",
+   "description": "ITB21-11-178",
+   "posted": "2021-11-16T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=186"
+  },
+  {
+   "id": 187,
+   "title": "ITB21-11-179",
+   "description": "ITB21-11-179",
+   "posted": "2021-11-23T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=187"
+  },
+  {
+   "id": 188,
+   "title": "ITB21-11-180",
+   "description": "ITB21-11-180",
+   "posted": "2021-11-23T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=188"
+  },
+  {
+   "id": 189,
+   "title": "ITB21-11-181",
+   "description": "ITB21-11-181",
+   "posted": "2021-11-23T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=189"
+  },
+  {
+   "id": 190,
+   "title": "ITB21-11-182",
+   "description": "ITB21-11-182",
+   "posted": "2021-11-23T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=190"
+  },
+  {
+   "id": 191,
+   "title": "Addendum No. 21-11-014",
+   "description": "Addendum No. 21-11-014",
+   "posted": "2021-11-23T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=191"
+  },
+  {
+   "id": 192,
+   "title": "ITB21-11-183",
+   "description": "ITB21-11-183",
+   "posted": "2021-11-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=192"
+  },
+  {
+   "id": 193,
+   "title": "ITB21-11-184",
+   "description": "ITB21-11-184",
+   "posted": "2021-11-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=193"
+  },
+  {
+   "id": 194,
+   "title": "ITB21-11-185",
+   "description": "ITB21-11-185",
+   "posted": "2021-11-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=194"
+  },
+  {
+   "id": 195,
+   "title": "ITB21-11-186",
+   "description": "ITB21-11-186",
+   "posted": "2021-11-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=195"
+  },
+  {
+   "id": 196,
+   "title": "ITB21-11-187",
+   "description": "ITB21-11-187",
+   "posted": "2021-11-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=196"
+  },
+  {
+   "id": 197,
+   "title": "ITB21-11-188",
+   "description": "ITB21-11-188",
+   "posted": "2021-11-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=197"
+  },
+  {
+   "id": 198,
+   "title": "ITB21-11-189",
+   "description": "ITB21-11-189",
+   "posted": "2021-11-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=198"
+  },
+  {
+   "id": 199,
+   "title": "ITB21-11-190",
+   "description": "ITB21-11-190",
+   "posted": "2021-11-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=199"
+  },
+  {
+   "id": 200,
+   "title": "ITB21-11-191",
+   "description": "ITB21-11-191",
+   "posted": "2021-11-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=200"
+  },
+  {
+   "id": 201,
+   "title": "ITB21-11-192",
+   "description": "ITB21-11-192",
+   "posted": "2021-11-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=201"
+  },
+  {
+   "id": 202,
+   "title": "ITB21-11-193",
+   "description": "ITB21-11-193",
+   "posted": "2021-11-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=202"
+  },
+  {
+   "id": 203,
+   "title": "ITB21-11-194",
+   "description": "ITB21-11-194",
+   "posted": "2021-11-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=203"
+  },
+  {
+   "id": 204,
+   "title": "ITB21-11-195",
+   "description": "ITB21-11-195",
+   "posted": "2021-11-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=204"
+  },
+  {
+   "id": 205,
+   "title": "ITB21-11-196",
+   "description": "ITB21-11-196",
+   "posted": "2021-11-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=205"
+  },
+  {
+   "id": 206,
+   "title": "ITB21-11-197",
+   "description": "ITB21-11-197",
+   "posted": "2021-11-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=206"
+  },
+  {
+   "id": 207,
+   "title": "ITB21-11-198",
+   "description": "ITB21-11-198",
+   "posted": "2021-11-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=207"
+  },
+  {
+   "id": 208,
+   "title": "ITB21-11-199",
+   "description": "ITB21-11-199",
+   "posted": "2021-11-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=208"
+  },
+  {
+   "id": 209,
+   "title": "ITB21-11-200",
+   "description": "ITB21-11-200",
+   "posted": "2021-11-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=209"
+  },
+  {
+   "id": 210,
+   "title": "ITB21-11-201",
+   "description": "ITB21-11-201",
+   "posted": "2021-11-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=210"
+  },
+  {
+   "id": 211,
+   "title": "ITB21-11-202",
+   "description": "ITB21-11-202",
+   "posted": "2021-11-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=211"
+  },
+  {
+   "id": 212,
+   "title": "ITB21-11-203",
+   "description": "ITB21-11-203",
+   "posted": "2021-11-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=212"
+  },
+  {
+   "id": 213,
+   "title": "ITB21-11-204",
+   "description": "ITB21-11-204",
+   "posted": "2021-11-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=213"
+  },
+  {
+   "id": 214,
+   "title": "Addendum No. 21-12-015",
+   "description": "Addendum No. 21-12-015",
+   "posted": "2021-12-07T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=214"
+  },
+  {
+   "id": 215,
+   "title": "ITB21-12-205",
+   "description": "ITB21-12-205",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=215"
+  },
+  {
+   "id": 216,
+   "title": "ITB21-12-206",
+   "description": "ITB21-12-206",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=216"
+  },
+  {
+   "id": 217,
+   "title": "ITB21-12-207",
+   "description": "ITB21-12-207",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=217"
+  },
+  {
+   "id": 218,
+   "title": "ITB21-12-208",
+   "description": "ITB21-12-208",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=218"
+  },
+  {
+   "id": 219,
+   "title": "ITB21-12-209",
+   "description": "ITB21-12-209",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=219"
+  },
+  {
+   "id": 220,
+   "title": "ITB21-12-210",
+   "description": "ITB21-12-210",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=220"
+  },
+  {
+   "id": 221,
+   "title": "ITB21-12-211",
+   "description": "ITB21-12-211",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=221"
+  },
+  {
+   "id": 222,
+   "title": "ITB21-12-212",
+   "description": "ITB21-12-212",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=222"
+  },
+  {
+   "id": 223,
+   "title": "ITB21-12-213",
+   "description": "ITB21-12-213",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=223"
+  },
+  {
+   "id": 224,
+   "title": "ITB21-12-214",
+   "description": "ITB21-12-214",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=224"
+  },
+  {
+   "id": 225,
+   "title": "ITB21-12-215",
+   "description": "ITB21-12-215",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=225"
+  },
+  {
+   "id": 226,
+   "title": "ITB21-12-216",
+   "description": "ITB21-12-216",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=226"
+  },
+  {
+   "id": 227,
+   "title": "ITB21-12-217",
+   "description": "ITB21-12-217",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=227"
+  },
+  {
+   "id": 228,
+   "title": "ITB21-12-218",
+   "description": "ITB21-12-218",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=228"
+  },
+  {
+   "id": 229,
+   "title": "ITB21-12-219",
+   "description": "ITB21-12-219",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=229"
+  },
+  {
+   "id": 230,
+   "title": "ITB21-12-220",
+   "description": "ITB21-12-220",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=230"
+  },
+  {
+   "id": 231,
+   "title": "ITB21-12-221",
+   "description": "ITB21-12-221",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=231"
+  },
+  {
+   "id": 232,
+   "title": "ITB21-12-222",
+   "description": "ITB21-12-222",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=232"
+  },
+  {
+   "id": 233,
+   "title": "ITB21-12-223",
+   "description": "ITB21-12-223",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=233"
+  },
+  {
+   "id": 234,
+   "title": "ITB21-12-224",
+   "description": "ITB21-12-224",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=234"
+  },
+  {
+   "id": 235,
+   "title": "ITB21-12-225",
+   "description": "ITB21-12-225",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=235"
+  },
+  {
+   "id": 236,
+   "title": "ITB21-12-226",
+   "description": "ITB21-12-226",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=236"
+  },
+  {
+   "id": 237,
+   "title": "ITB21-12-227",
+   "description": "ITB21-12-227",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=237"
+  },
+  {
+   "id": 238,
+   "title": "ITB21-12-228",
+   "description": "ITB21-12-228",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=238"
+  },
+  {
+   "id": 239,
+   "title": "ITB21-12-229",
+   "description": "ITB21-12-229",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=239"
+  },
+  {
+   "id": 240,
+   "title": "ITB21-12-230",
+   "description": "ITB21-12-230",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=240"
+  },
+  {
+   "id": 241,
+   "title": "ITB21-12-231",
+   "description": "ITB21-12-231",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=241"
+  },
+  {
+   "id": 242,
+   "title": "ITB21-12-232",
+   "description": "ITB21-12-232",
+   "posted": "2021-12-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=242"
+  },
+  {
+   "id": 243,
+   "title": "RFQ-No-2021-12-086",
+   "description": "Request for Quotation (rfq-no-2021-12-086)",
+   "posted": "2021-12-07T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=243"
+  },
+  {
+   "id": 244,
+   "title": "RFQ-No-2021-12-087",
+   "description": "Request for Quotation (rfq-no-2021-12-087)",
+   "posted": "2021-12-07T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=244"
+  },
+  {
+   "id": 245,
+   "title": "ITB22-01-001",
+   "description": "ITB22-01-001",
+   "posted": "2022-01-03T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=245"
+  },
+  {
+   "id": 246,
+   "title": "ITB22-01-002",
+   "description": "ITB22-01-002",
+   "posted": "2022-01-03T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=246"
+  },
+  {
+   "id": 247,
+   "title": "ITB22-01-003",
+   "description": "ITB22-01-003",
+   "posted": "2022-01-03T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=247"
+  },
+  {
+   "id": 248,
+   "title": "ITB22-01-004",
+   "description": "ITB22-01-004",
+   "posted": "2022-01-03T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=248"
+  },
+  {
+   "id": 249,
+   "title": "ITB22-01-005",
+   "description": "ITB22-01-005",
+   "posted": "2022-01-03T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=249"
+  },
+  {
+   "id": 250,
+   "title": "ITB22-01-006",
+   "description": "ITB22-01-006",
+   "posted": "2022-01-03T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=250"
+  },
+  {
+   "id": 251,
+   "title": "ITB22-01-007",
+   "description": "ITB22-01-007",
+   "posted": "2022-01-03T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=251"
+  },
+  {
+   "id": 252,
+   "title": "ITB22-01-008",
+   "description": "ITB22-01-008",
+   "posted": "2022-01-03T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=252"
+  },
+  {
+   "id": 253,
+   "title": "ITB22-01-009",
+   "description": "ITB22-01-009",
+   "posted": "2022-01-03T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=253"
+  },
+  {
+   "id": 254,
+   "title": "ITB22-01-010",
+   "description": "ITB22-01-010",
+   "posted": "2022-01-03T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=254"
+  },
+  {
+   "id": 255,
+   "title": "ITB22-01-011",
+   "description": "ITB22-01-011",
+   "posted": "2022-01-03T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=255"
+  },
+  {
+   "id": 256,
+   "title": "ITB22-01-012",
+   "description": "ITB22-01-012",
+   "posted": "2022-01-03T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=256"
+  },
+  {
+   "id": 257,
+   "title": "ITB22-01-013",
+   "description": "ITB22-01-013",
+   "posted": "2022-01-04T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=257"
+  },
+  {
+   "id": 258,
+   "title": "ITB22-01-014",
+   "description": "ITB22-01-014",
+   "posted": "2022-01-14T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=258"
+  },
+  {
+   "id": 259,
+   "title": "ITB22-01-015",
+   "description": "ITB22-01-015",
+   "posted": "2022-01-14T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=259"
+  },
+  {
+   "id": 260,
+   "title": "Resolution No. 5711, Series of 2022",
+   "description": "A RESOLUTION APPROVING THE SUPPLEMENTAL ANNUAL INVESTMENT PROGRAM NO. 1 (Php 55,000,000.00) from PAGCOR",
+   "posted": "2022-01-26T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=260"
+  },
+  {
+   "id": 261,
+   "title": "ITB22-01-016",
+   "description": "ITB22-01-016",
+   "posted": "2022-01-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=261"
+  },
+  {
+   "id": 262,
+   "title": "ITB22-01-017",
+   "description": "ITB22-01-017",
+   "posted": "2022-01-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=262"
+  },
+  {
+   "id": 263,
+   "title": "ITB22-01-018",
+   "description": "ITB22-01-018",
+   "posted": "2022-02-02T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=263"
+  },
+  {
+   "id": 264,
+   "title": "ITB22-01-019",
+   "description": "ITB22-01-019",
+   "posted": "2022-02-02T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=264"
+  },
+  {
+   "id": 265,
+   "title": "ITB22-01-020",
+   "description": "ITB22-01-020",
+   "posted": "2022-02-02T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=265"
+  },
+  {
+   "id": 266,
+   "title": "ITB22-01-021",
+   "description": "ITB22-01-021",
+   "posted": "2022-02-02T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=266"
+  },
+  {
+   "id": 267,
+   "title": "ITB22-01-022",
+   "description": "ITB22-01-022",
+   "posted": "2022-02-02T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=267"
+  },
+  {
+   "id": 268,
+   "title": "ITB22-01-023",
+   "description": "ITB22-01-023",
+   "posted": "2022-02-02T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=268"
+  },
+  {
+   "id": 269,
+   "title": "ITB22-01-024",
+   "description": "ITB22-01-024",
+   "posted": "2022-02-02T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=269"
+  },
+  {
+   "id": 270,
+   "title": "ITB22-01-025",
+   "description": "ITB22-01-025",
+   "posted": "2022-02-02T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=270"
+  },
+  {
+   "id": 271,
+   "title": "ITB22-01-026",
+   "description": "ITB22-01-026",
+   "posted": "2022-02-02T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=271"
+  },
+  {
+   "id": 272,
+   "title": "ITB22-01-027",
+   "description": "ITB22-01-027",
+   "posted": "2022-02-02T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=272"
+  },
+  {
+   "id": 273,
+   "title": "ITB22-01-028",
+   "description": "ITB22-01-028",
+   "posted": "2022-02-02T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=273"
+  },
+  {
+   "id": 274,
+   "title": "ITB22-01-029",
+   "description": "ITB22-01-029",
+   "posted": "2022-02-02T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=274"
+  },
+  {
+   "id": 275,
+   "title": "ITB22-01-030",
+   "description": "ITB22-01-030",
+   "posted": "2022-02-02T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=275"
+  },
+  {
+   "id": 276,
+   "title": "ITB22-02-031",
+   "description": "ITB22-02-031",
+   "posted": "2022-02-15T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=276"
+  },
+  {
+   "id": 277,
+   "title": "ITB22-02-032",
+   "description": "ITB22-02-032",
+   "posted": "2022-02-15T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=277"
+  },
+  {
+   "id": 278,
+   "title": "ITB22-02-033",
+   "description": "ITB22-02-033",
+   "posted": "2022-02-15T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=278"
+  },
+  {
+   "id": 279,
+   "title": "ITB22-02-034",
+   "description": "ITB22-02-034",
+   "posted": "2022-02-15T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=279"
+  },
+  {
+   "id": 280,
+   "title": "ITB22-02-035",
+   "description": "ITB22-02-035",
+   "posted": "2022-02-15T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=280"
+  },
+  {
+   "id": 281,
+   "title": "ITB22-02-036",
+   "description": "ITB22-02-036",
+   "posted": "2022-02-15T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=281"
+  },
+  {
+   "id": 282,
+   "title": "ITB22-02-037",
+   "description": "ITB22-02-037",
+   "posted": "2022-02-15T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=282"
+  },
+  {
+   "id": 283,
+   "title": "ITB22-02-038",
+   "description": "ITB22-02-038",
+   "posted": "2022-02-15T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=283"
+  },
+  {
+   "id": 284,
+   "title": "ITB22-02-039",
+   "description": "ITB22-02-039",
+   "posted": "2022-02-15T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=284"
+  },
+  {
+   "id": 285,
+   "title": "ITB22-02-040",
+   "description": "ITB22-02-040",
+   "posted": "2022-02-15T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=285"
+  },
+  {
+   "id": 286,
+   "title": "ITB22-02-041",
+   "description": "ITB22-02-041",
+   "posted": "2022-02-15T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=286"
+  },
+  {
+   "id": 287,
+   "title": "ITB22-02-042",
+   "description": "ITB22-02-042",
+   "posted": "2022-02-15T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=287"
+  },
+  {
+   "id": 288,
+   "title": "ITB22-02-043",
+   "description": "ITB22-02-043",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=288"
+  },
+  {
+   "id": 289,
+   "title": "ITB22-02-044",
+   "description": "ITB22-02-044",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=289"
+  },
+  {
+   "id": 290,
+   "title": "ITB22-02-045",
+   "description": "ITB22-02-045",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=290"
+  },
+  {
+   "id": 291,
+   "title": "ITB22-02-046",
+   "description": "ITB22-02-046",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=291"
+  },
+  {
+   "id": 292,
+   "title": "ITB22-02-047",
+   "description": "ITB22-02-047",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=292"
+  },
+  {
+   "id": 293,
+   "title": "ITB22-02-048",
+   "description": "ITB22-02-048",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=293"
+  },
+  {
+   "id": 294,
+   "title": "ITB22-02-049",
+   "description": "ITB22-02-049",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=294"
+  },
+  {
+   "id": 295,
+   "title": "ITB22-02-050",
+   "description": "ITB22-02-050",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=295"
+  },
+  {
+   "id": 296,
+   "title": "ITB22-02-051",
+   "description": "ITB22-02-051",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=296"
+  },
+  {
+   "id": 297,
+   "title": "ITB22-02-052",
+   "description": "ITB22-02-052",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=297"
+  },
+  {
+   "id": 298,
+   "title": "ITB22-02-053",
+   "description": "ITB22-02-053",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=298"
+  },
+  {
+   "id": 299,
+   "title": "ITB22-02-054",
+   "description": "ITB22-02-054",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=299"
+  },
+  {
+   "id": 300,
+   "title": "ITB22-02-055",
+   "description": "ITB22-02-055",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=300"
+  },
+  {
+   "id": 301,
+   "title": "ITB22-02-056",
+   "description": "ITB22-02-056",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=301"
+  },
+  {
+   "id": 302,
+   "title": "ITB22-02-057",
+   "description": "ITB22-02-057",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=302"
+  },
+  {
+   "id": 303,
+   "title": "ITB22-02-058",
+   "description": "ITB22-02-058",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=303"
+  },
+  {
+   "id": 304,
+   "title": "ITB22-02-059",
+   "description": "ITB22-02-059",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=304"
+  },
+  {
+   "id": 305,
+   "title": "ITB22-02-060",
+   "description": "ITB22-02-060",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=305"
+  },
+  {
+   "id": 306,
+   "title": "ITB22-02-061",
+   "description": "ITB22-02-061",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=306"
+  },
+  {
+   "id": 307,
+   "title": "ITB22-02-062",
+   "description": "ITB22-02-062",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=307"
+  },
+  {
+   "id": 308,
+   "title": "ITB22-02-063",
+   "description": "ITB22-02-063",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=308"
+  },
+  {
+   "id": 309,
+   "title": "ITB22-02-064",
+   "description": "ITB22-02-064",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=309"
+  },
+  {
+   "id": 310,
+   "title": "ITB22-02-065",
+   "description": "ITB22-02-065",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=310"
+  },
+  {
+   "id": 311,
+   "title": "ITB22-02-066",
+   "description": "ITB22-02-066",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=311"
+  },
+  {
+   "id": 312,
+   "title": "ITB22-02-067",
+   "description": "ITB22-02-067",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=312"
+  },
+  {
+   "id": 313,
+   "title": "ITB22-02-068",
+   "description": "ITB22-02-068",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=313"
+  },
+  {
+   "id": 314,
+   "title": "ITB22-02-069",
+   "description": "ITB22-02-069",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=314"
+  },
+  {
+   "id": 315,
+   "title": "ITB22-02-070",
+   "description": "ITB22-02-070",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=315"
+  },
+  {
+   "id": 316,
+   "title": "ITB22-02-071",
+   "description": "ITB22-02-071",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=316"
+  },
+  {
+   "id": 317,
+   "title": "ITB22-02-072",
+   "description": "ITB22-02-072",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=317"
+  },
+  {
+   "id": 318,
+   "title": "ITB22-02-073",
+   "description": "ITB22-02-073",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=318"
+  },
+  {
+   "id": 319,
+   "title": "ITB22-02-074",
+   "description": "ITB22-02-074",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=319"
+  },
+  {
+   "id": 320,
+   "title": "ITB22-02-075",
+   "description": "ITB22-02-075",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=320"
+  },
+  {
+   "id": 321,
+   "title": "ITB22-02-076",
+   "description": "ITB22-02-076",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=321"
+  },
+  {
+   "id": 322,
+   "title": "ITB22-02-077",
+   "description": "ITB22-02-077",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=322"
+  },
+  {
+   "id": 323,
+   "title": "ITB22-02-078",
+   "description": "ITB22-02-078",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=323"
+  },
+  {
+   "id": 324,
+   "title": "ITB22-02-079",
+   "description": "ITB22-02-079",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=324"
+  },
+  {
+   "id": 325,
+   "title": "ITB22-02-080",
+   "description": "ITB22-02-080",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=325"
+  },
+  {
+   "id": 326,
+   "title": "ITB22-02-081",
+   "description": "ITB22-02-081",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=326"
+  },
+  {
+   "id": 327,
+   "title": "ITB22-02-082",
+   "description": "ITB22-02-082",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=327"
+  },
+  {
+   "id": 328,
+   "title": "ITB22-02-083",
+   "description": "ITB22-02-083",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=328"
+  },
+  {
+   "id": 329,
+   "title": "ITB22-02-084",
+   "description": "ITB22-02-084",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=329"
+  },
+  {
+   "id": 330,
+   "title": "ITB22-02-085",
+   "description": "ITB22-02-085",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=330"
+  },
+  {
+   "id": 331,
+   "title": "ITB22-02-086",
+   "description": "ITB22-02-086",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=331"
+  },
+  {
+   "id": 332,
+   "title": "ITB22-02-087",
+   "description": "ITB22-02-087",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=332"
+  },
+  {
+   "id": 333,
+   "title": "ITB22-02-088",
+   "description": "ITB22-02-088",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=333"
+  },
+  {
+   "id": 334,
+   "title": "ITB22-02-089",
+   "description": "ITB22-02-089",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=334"
+  },
+  {
+   "id": 335,
+   "title": "ITB22-02-090",
+   "description": "ITB22-02-090",
+   "posted": "2022-02-24T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=335"
+  },
+  {
+   "id": 336,
+   "title": "ITB22-02-091",
+   "description": "ITB22-02-091",
+   "posted": "2022-02-28T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=336"
+  },
+  {
+   "id": 337,
+   "title": "ITB22-02-092",
+   "description": "ITB22-02-092",
+   "posted": "2022-02-28T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=337"
+  },
+  {
+   "id": 338,
+   "title": "ITB22-02-093",
+   "description": "ITB22-02-093",
+   "posted": "2022-02-28T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=338"
+  },
+  {
+   "id": 339,
+   "title": "ITB22-02-094",
+   "description": "ITB22-02-094",
+   "posted": "2022-02-28T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=339"
+  },
+  {
+   "id": 340,
+   "title": "ITB22-02-095",
+   "description": "ITB22-02-095",
+   "posted": "2022-02-28T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=340"
+  },
+  {
+   "id": 341,
+   "title": "ITB22-02-096",
+   "description": "ITB22-02-096",
+   "posted": "2022-02-28T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=341"
+  },
+  {
+   "id": 342,
+   "title": "ITB22-02-097",
+   "description": "ITB22-02-097",
+   "posted": "2022-02-28T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=342"
+  },
+  {
+   "id": 343,
+   "title": "ITB22-02-098",
+   "description": "ITB22-02-098",
+   "posted": "2022-02-28T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=343"
+  },
+  {
+   "id": 344,
+   "title": "ITB22-02-099",
+   "description": "ITB22-02-099",
+   "posted": "2022-02-28T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=344"
+  },
+  {
+   "id": 345,
+   "title": "ITB22-02-100",
+   "description": "ITB22-02-100",
+   "posted": "2022-02-28T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=345"
+  },
+  {
+   "id": 346,
+   "title": "ITB22-02-101",
+   "description": "ITB22-02-101",
+   "posted": "2022-02-28T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=346"
+  },
+  {
+   "id": 347,
+   "title": "ITB22-02-102",
+   "description": "ITB22-02-102",
+   "posted": "2022-02-28T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=347"
+  },
+  {
+   "id": 348,
+   "title": "ITB22-02-103",
+   "description": "ITB22-02-103",
+   "posted": "2022-02-28T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=348"
+  },
+  {
+   "id": 349,
+   "title": "ITB22-02-104",
+   "description": "ITB22-02-104",
+   "posted": "2022-02-28T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=349"
+  },
+  {
+   "id": 350,
+   "title": "ITB22-02-105",
+   "description": "ITB22-02-105",
+   "posted": "2022-02-28T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=350"
+  },
+  {
+   "id": 351,
+   "title": "ITB22-02-106",
+   "description": "ITB22-02-106",
+   "posted": "2022-02-28T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=351"
+  },
+  {
+   "id": 352,
+   "title": "ITB22-02-107",
+   "description": "ITB22-02-107",
+   "posted": "2022-02-28T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=352"
+  },
+  {
+   "id": 353,
+   "title": "ITB22-02-108",
+   "description": "ITB22-02-108",
+   "posted": "2022-02-28T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=353"
+  },
+  {
+   "id": 354,
+   "title": "ITB22-02-109",
+   "description": "ITB22-02-109",
+   "posted": "2022-02-28T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=354"
+  },
+  {
+   "id": 355,
+   "title": "ITB22-02-110",
+   "description": "ITB22-02-110",
+   "posted": "2022-02-28T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=355"
+  },
+  {
+   "id": 356,
+   "title": "ITB22-03-111",
+   "description": "ITB22-03-111",
+   "posted": "2022-03-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=356"
+  },
+  {
+   "id": 357,
+   "title": "ITB22-03-112",
+   "description": "ITB22-03-112",
+   "posted": "2022-03-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=357"
+  },
+  {
+   "id": 358,
+   "title": "ITB22-03-113",
+   "description": "ITB22-03-113",
+   "posted": "2022-03-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=358"
+  },
+  {
+   "id": 359,
+   "title": "ITB22-03-114",
+   "description": "ITB22-03-114",
+   "posted": "2022-03-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=359"
+  },
+  {
+   "id": 360,
+   "title": "ITB22-03-115",
+   "description": "ITB22-03-115",
+   "posted": "2022-03-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=360"
+  },
+  {
+   "id": 361,
+   "title": "ITB22-03-116",
+   "description": "ITB22-03-116",
+   "posted": "2022-03-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=361"
+  },
+  {
+   "id": 362,
+   "title": "ITB22-03-117",
+   "description": "ITB22-03-117",
+   "posted": "2022-03-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=362"
+  },
+  {
+   "id": 363,
+   "title": "ITB22-03-118",
+   "description": "ITB22-03-118",
+   "posted": "2022-03-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=363"
+  },
+  {
+   "id": 364,
+   "title": "ITB22-03-119",
+   "description": "ITB22-03-119",
+   "posted": "2022-03-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=364"
+  },
+  {
+   "id": 365,
+   "title": "ITB22-03-119",
+   "description": "ITB22-03-119",
+   "posted": "2022-03-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=365"
+  },
+  {
+   "id": 366,
+   "title": "Addendum No. 22-03-002",
+   "description": "Addendum No. 22-03-002",
+   "posted": "2022-03-08T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=366"
+  },
+  {
+   "id": 367,
+   "title": "Addendum No. 22-03-003",
+   "description": "Addendum No. 22-03-003",
+   "posted": "2022-03-08T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=367"
+  },
+  {
+   "id": 368,
+   "title": "Addendum No. 22-03-004",
+   "description": "Addendum No. 22-03-004",
+   "posted": "2022-03-08T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=368"
+  },
+  {
+   "id": 369,
+   "title": "Addendum No. 22-03-005",
+   "description": "Addendum No. 22-03-005",
+   "posted": "2022-03-08T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=369"
+  },
+  {
+   "id": 370,
+   "title": "Addendum No. 22-03-006",
+   "description": "Addendum No. 22-03-006",
+   "posted": "2022-03-08T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=370"
+  },
+  {
+   "id": 1356,
+   "title": "ITB22-03-120",
+   "description": "ITB22-03-120",
+   "posted": "2022-03-15T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1356"
+  },
+  {
+   "id": 1357,
+   "title": "Addendum No. 22-03-007",
+   "description": "Addendum No. 22-03-007",
+   "posted": "2022-03-14T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1357"
+  },
+  {
+   "id": 1358,
+   "title": "Addendum No. 22-03-008",
+   "description": "Addendum No. 22-03-008",
+   "posted": "2022-03-14T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1358"
+  },
+  {
+   "id": 1359,
+   "title": "ITB22-03-121",
+   "description": "ITB22-03-121",
+   "posted": "2022-03-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1359"
+  },
+  {
+   "id": 1360,
+   "title": "ITB22-03-122",
+   "description": "ITB22-03-122",
+   "posted": "2022-03-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1360"
+  },
+  {
+   "id": 1361,
+   "title": "ITB22-03-123",
+   "description": "ITB22-03-123",
+   "posted": "2022-03-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1361"
+  },
+  {
+   "id": 1362,
+   "title": "ITB22-03-124",
+   "description": "ITB22-03-124",
+   "posted": "2022-03-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1362"
+  },
+  {
+   "id": 1363,
+   "title": "ITB22-03-125",
+   "description": "ITB22-03-125",
+   "posted": "2022-03-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1363"
+  },
+  {
+   "id": 1364,
+   "title": "ITB22-03-126",
+   "description": "ITB22-03-126",
+   "posted": "2022-03-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1364"
+  },
+  {
+   "id": 1365,
+   "title": "ITB22-03-127",
+   "description": "ITB22-03-127",
+   "posted": "2022-03-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1365"
+  },
+  {
+   "id": 1366,
+   "title": "ITB22-03-128",
+   "description": "ITB22-03-128",
+   "posted": "2022-03-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1366"
+  },
+  {
+   "id": 1367,
+   "title": "ISSP 2022-01",
+   "description": "Unserviceable properties",
+   "posted": "2022-04-05T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1367"
+  },
+  {
+   "id": 1368,
+   "title": "Addendum No. 22-04-001",
+   "description": "Addendum No. 22-04-001",
+   "posted": "2022-04-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1368"
+  },
+  {
+   "id": 1369,
+   "title": "Addendum No. 22-03-001",
+   "description": "Addendum No. 22-03-001",
+   "posted": "2022-04-06T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1369"
+  },
+  {
+   "id": 1370,
+   "title": "ITB22-03-129",
+   "description": "ITB22-03-129",
+   "posted": "2022-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1370"
+  },
+  {
+   "id": 1371,
+   "title": "ITB22-03-130",
+   "description": "ITB22-03-130",
+   "posted": "2022-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1371"
+  },
+  {
+   "id": 1372,
+   "title": "ITB22-03-131",
+   "description": "ITB22-03-131",
+   "posted": "2022-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1372"
+  },
+  {
+   "id": 1373,
+   "title": "ITB22-03-132",
+   "description": "ITB22-03-132",
+   "posted": "2022-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1373"
+  },
+  {
+   "id": 1374,
+   "title": "ITB22-03-133",
+   "description": "ITB22-03-133",
+   "posted": "2022-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1374"
+  },
+  {
+   "id": 1375,
+   "title": "ITB22-03-134",
+   "description": "ITB22-03-134",
+   "posted": "2022-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1375"
+  },
+  {
+   "id": 1376,
+   "title": "ITB22-03-135",
+   "description": "ITB22-03-135",
+   "posted": "2022-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1376"
+  },
+  {
+   "id": 1377,
+   "title": "ITB22-03-142",
+   "description": "ITB22-03-142",
+   "posted": "2022-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1377"
+  },
+  {
+   "id": 1378,
+   "title": "ITB22-03-141",
+   "description": "ITB22-03-141",
+   "posted": "2022-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1378"
+  },
+  {
+   "id": 1379,
+   "title": "ITB22-03-140",
+   "description": "ITB22-03-140",
+   "posted": "2022-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1379"
+  },
+  {
+   "id": 1380,
+   "title": "ITB22-03-139",
+   "description": "ITB22-03-139",
+   "posted": "2022-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1380"
+  },
+  {
+   "id": 1381,
+   "title": "ITB22-03-138",
+   "description": "ITB22-03-138",
+   "posted": "2022-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1381"
+  },
+  {
+   "id": 1382,
+   "title": "ITB22-03-137",
+   "description": "ITB22-03-137",
+   "posted": "2022-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1382"
+  },
+  {
+   "id": 1383,
+   "title": "ITB22-03-136",
+   "description": "ITB22-03-136",
+   "posted": "2022-03-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1383"
+  },
+  {
+   "id": 1384,
+   "title": "ITB22-04-150",
+   "description": "ITB22-04-150",
+   "posted": "2022-04-13T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1384"
+  },
+  {
+   "id": 1385,
+   "title": "ITB22-04-149",
+   "description": "ITB22-04-149",
+   "posted": "2022-04-13T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1385"
+  },
+  {
+   "id": 1386,
+   "title": "ITB22-04-148",
+   "description": "ITB22-04-148",
+   "posted": "2022-04-13T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1386"
+  },
+  {
+   "id": 1387,
+   "title": "ITB22-04-147",
+   "description": "ITB22-04-147",
+   "posted": "2022-04-13T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1387"
+  },
+  {
+   "id": 1388,
+   "title": "ITB22-04-146",
+   "description": "ITB22-04-146",
+   "posted": "2022-04-13T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1388"
+  },
+  {
+   "id": 1389,
+   "title": "ITB22-04-145",
+   "description": "ITB22-04-145",
+   "posted": "2022-04-13T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1389"
+  },
+  {
+   "id": 1390,
+   "title": "ITB22-04-144",
+   "description": "ITB22-04-144",
+   "posted": "2022-04-13T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1390"
+  },
+  {
+   "id": 1391,
+   "title": "ITB22-04-143",
+   "description": "ITB22-04-143",
+   "posted": "2022-04-13T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1391"
+  },
+  {
+   "id": 1392,
+   "title": "ITB22-04-153",
+   "description": "ITB22-04-153",
+   "posted": "2022-04-18T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1392"
+  },
+  {
+   "id": 1393,
+   "title": "ITB22-04-152",
+   "description": "ITB22-04-152",
+   "posted": "2022-04-18T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1393"
+  },
+  {
+   "id": 1394,
+   "title": "ITB22-04-151",
+   "description": "ITB22-04-151",
+   "posted": "2022-04-18T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1394"
+  },
+  {
+   "id": 1395,
+   "title": "REI22-04-154",
+   "description": "REI22-04-154",
+   "posted": "2022-04-18T22:59:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1395"
+  },
+  {
+   "id": 1396,
+   "title": "Addendum No. 22-04-009",
+   "description": "Addendum No. 22-04-009",
+   "posted": "2022-04-29T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1396"
+  },
+  {
+   "id": 1397,
+   "title": "ITB22-04-155",
+   "description": "ITB22-04-155",
+   "posted": "2022-05-05T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1397"
+  },
+  {
+   "id": 1398,
+   "title": "ITB22-05-156",
+   "description": "ITB22-05-156",
+   "posted": "2022-05-11T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1398"
+  },
+  {
+   "id": 1399,
+   "title": "ITB22-05-157",
+   "description": "ITB22-05-157",
+   "posted": "2022-05-11T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1399"
+  },
+  {
+   "id": 1400,
+   "title": "Addendum No. 22-05-002",
+   "description": "Addendum No. 22-05-002",
+   "posted": "2022-05-06T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1400"
+  },
+  {
+   "id": 1401,
+   "title": "Addendum No. 22-05-003",
+   "description": "Addendum No. 22-05-003",
+   "posted": "2022-05-06T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1401"
+  },
+  {
+   "id": 1402,
+   "title": "Addendum No. 22-05-010",
+   "description": "Addendum No. 22-05-010",
+   "posted": "2022-05-10T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1402"
+  },
+  {
+   "id": 1403,
+   "title": "Addendum No. 22-05-011",
+   "description": "Addendum No. 22-05-011",
+   "posted": "2022-05-10T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1403"
+  },
+  {
+   "id": 1404,
+   "title": "ITB22-05-158",
+   "description": "ITB22-05-158",
+   "posted": "2022-05-16T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1404"
+  },
+  {
+   "id": 1405,
+   "title": "ITB22-05-159",
+   "description": "ITB22-05-159",
+   "posted": "2022-05-16T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1405"
+  },
+  {
+   "id": 1406,
+   "title": "ITB22-05-160",
+   "description": "ITB22-05-160",
+   "posted": "2022-05-16T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1406"
+  },
+  {
+   "id": 1407,
+   "title": "ITB22-05-161",
+   "description": "ITB22-05-161",
+   "posted": "2022-05-16T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1407"
+  },
+  {
+   "id": 1408,
+   "title": "ITB22-05-162",
+   "description": "ITB22-05-162",
+   "posted": "2022-05-23T17:09:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1408"
+  },
+  {
+   "id": 1409,
+   "title": "ITB22-05-163",
+   "description": "ITB22-05-163",
+   "posted": "2022-05-23T17:09:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1409"
+  },
+  {
+   "id": 1410,
+   "title": "ITB22-05-164",
+   "description": "ITB22-05-164",
+   "posted": "2022-06-01T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1410"
+  },
+  {
+   "id": 1411,
+   "title": "ITB22-05-165",
+   "description": "ITB22-05-165",
+   "posted": "2022-06-01T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1411"
+  },
+  {
+   "id": 1412,
+   "title": "ITB22-06-166",
+   "description": "ITB22-06-166",
+   "posted": "2022-06-01T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1412"
+  },
+  {
+   "id": 1413,
+   "title": "ITB22-06-167",
+   "description": "ITB22-06-167",
+   "posted": "2022-06-01T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1413"
+  },
+  {
+   "id": 1414,
+   "title": "ITB22-06-168",
+   "description": "ITB22-06-168",
+   "posted": "2022-06-01T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1414"
+  },
+  {
+   "id": 1415,
+   "title": "ITB22-06-169",
+   "description": "ITB22-06-169",
+   "posted": "2022-06-01T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1415"
+  },
+  {
+   "id": 1416,
+   "title": "ITB22-06-170",
+   "description": "ITB22-06-170",
+   "posted": "2022-06-15T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1416"
+  },
+  {
+   "id": 1417,
+   "title": "ITB22-06-171",
+   "description": "ITB22-06-171",
+   "posted": "2022-06-15T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1417"
+  },
+  {
+   "id": 1418,
+   "title": "ITB22-06-172",
+   "description": "ITB22-06-172",
+   "posted": "2022-06-15T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1418"
+  },
+  {
+   "id": 1419,
+   "title": "ITB22-06-173",
+   "description": "ITB22-06-173",
+   "posted": "2022-06-15T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1419"
+  },
+  {
+   "id": 1420,
+   "title": "ITB22-06-174",
+   "description": "ITB22-06-174",
+   "posted": "2022-06-15T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1420"
+  },
+  {
+   "id": 1421,
+   "title": "ITB22-06-175",
+   "description": "ITB22-06-175",
+   "posted": "2022-06-16T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1421"
+  },
+  {
+   "id": 1422,
+   "title": "ITB22-06-176",
+   "description": "ITB22-06-176",
+   "posted": "2022-06-16T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1422"
+  },
+  {
+   "id": 1423,
+   "title": "ITB22-06-177",
+   "description": "ITB22-06-177",
+   "posted": "2022-06-16T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1423"
+  },
+  {
+   "id": 1424,
+   "title": "ITB22-06-178",
+   "description": "ITB22-06-178",
+   "posted": "2022-06-16T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1424"
+  },
+  {
+   "id": 1425,
+   "title": "ITB22-06-179",
+   "description": "ITB22-06-179",
+   "posted": "2022-06-16T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetAnRImages?imgId=1425"
+  }
+ ]
+}

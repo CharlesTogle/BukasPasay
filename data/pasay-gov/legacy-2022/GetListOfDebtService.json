@@ -1,0 +1,15 @@
+{
+ "category": "Debt Service",
+ "endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetListOfDebtService",
+ "archived_at": "2022-06-18",
+ "source": "https://web.archive.org/web/20220618154328id_/https://www.pasay.gov.ph/GeneralInfo/GetListOfDebtService",
+ "rows": [
+  {
+   "id": 1,
+   "title": "Debt Service",
+   "description": "Debt Service",
+   "posted": "2021-04-07T23:08:02.697Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetDebtServiceImages?imgId=1"
+  }
+ ]
+}

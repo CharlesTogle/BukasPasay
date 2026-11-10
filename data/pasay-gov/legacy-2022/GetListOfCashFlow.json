@@ -1,0 +1,113 @@
+{
+ "category": "Cash Flow",
+ "endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetListOfCashFlow",
+ "archived_at": "2022-06-18",
+ "source": "https://web.archive.org/web/20220618154325id_/https://www.pasay.gov.ph/GeneralInfo/GetListOfCashFlow",
+ "rows": [
+  {
+   "id": 15,
+   "title": "Trust Fund Utilization Report of DOH-NCR",
+   "description": "Period Ending February 28, 2022",
+   "posted": "2022-03-29T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetCashFlowImages?imgId=15"
+  },
+  {
+   "id": 14,
+   "title": "DOH-NCR - Pasay City Gen. Hospital - Medical Assistance to Indigent Patients Program - Trust Fund",
+   "description": "For the Quarter Ending December 31, 2021",
+   "posted": "2022-03-04T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetCashFlowImages?imgId=14"
+  },
+  {
+   "id": 13,
+   "title": "Financial Assistance to LGU, charged against the National Disaster Risk Reduction and Management Fund",
+   "description": "For the Month of December 2021",
+   "posted": "2022-03-04T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetCashFlowImages?imgId=13"
+  },
+  {
+   "id": 12,
+   "title": "Financial Assistance to LGUs - Financial Assistance for Covid-19 Crisis",
+   "description": "As of December 31, 2021",
+   "posted": "2022-03-04T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetCashFlowImages?imgId=12"
+  },
+  {
+   "id": 11,
+   "title": "Local Govt Support Fund - Other Financial Assistance to LGUs",
+   "description": "For the Quarter Ended December 31, 2021",
+   "posted": "2022-03-04T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetCashFlowImages?imgId=11"
+  },
+  {
+   "id": 10,
+   "title": "Local Govt Support Fund - Rehabilitation of Our lady of Airways Parish Park",
+   "description": "For the Quarter Ended December 31, 2021",
+   "posted": "2022-03-04T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetCashFlowImages?imgId=10"
+  },
+  {
+   "id": 9,
+   "title": "Local Govt Support Fund - Disaster Rehabilitation and Reconstruction Assistance Program",
+   "description": "For the Quarter Ended December 31, 2021",
+   "posted": "2022-03-04T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetCashFlowImages?imgId=9"
+  },
+  {
+   "id": 8,
+   "title": "Local Govt Support Fund - Covid-19 Financial Assistance to LGUs as Provided Under the Bayanihan to Recover as One Act",
+   "description": "For the Quarter Ended December 31, 2021",
+   "posted": "2022-03-04T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetCashFlowImages?imgId=8"
+  },
+  {
+   "id": 7,
+   "title": "DILG - Family based Actions for Children and Their Environs in the Slums - Trust Fund",
+   "description": "For the Period Ending December 31, 2021",
+   "posted": "2022-02-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetCashFlowImages?imgId=7"
+  },
+  {
+   "id": 6,
+   "title": "DOH - Pasay City Gen. Hospital - Medical Assistance Program for Dengvaxia - Trust Fund",
+   "description": "For the Period Ending December 31, 2021",
+   "posted": "2022-02-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetCashFlowImages?imgId=6"
+  },
+  {
+   "id": 5,
+   "title": "DILG - Presidential Award for Child Friendly Municipalities and Cities",
+   "description": "For the Period Ending December 31, 2021",
+   "posted": "2022-02-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetCashFlowImages?imgId=5"
+  },
+  {
+   "id": 4,
+   "title": "DILG - Manila Bayani Awards - Trust Fund",
+   "description": "For the Period Ending December 31, 2021",
+   "posted": "2022-02-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetCashFlowImages?imgId=4"
+  },
+  {
+   "id": 3,
+   "title": "DOT - Implementation of the Preparation of the Pasay City Sustainable Tourism Devt Plan - Trust Fund",
+   "description": "For the Period Ending December 31, 2021",
+   "posted": "2022-02-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetCashFlowImages?imgId=3"
+  },
+  {
+   "id": 2,
+   "title": "DA - Enhanced Kadiwa Inclusive Food Supply Chain Program - Trust Fund",
+   "description": "For the Period Ending December 31, 2021",
+   "posted": "2022-02-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetCashFlowImages?imgId=2"
+  },
+  {
+   "id": 1,
+   "title": "Cash Flow",
+   "description": "Cash Flow",
+   "posted": "2021-04-08T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetCashFlowImages?imgId=1"
+  }
+ ]
+}

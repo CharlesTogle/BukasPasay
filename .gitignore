@@ -7,3 +7,6 @@ dist
 .env.local
 *.log
 .DS_Store
+data/pasay-gov/files
+.venv
+data/pasay-gov/ocr

@@ -1,0 +1,792 @@
+{
+ "category": "Budget",
+ "endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetListOfBudget",
+ "archived_at": "2022-06-18",
+ "source": "https://web.archive.org/web/20220618154326id_/https://www.pasay.gov.ph/GeneralInfo/GetListOfBudget",
+ "rows": [
+  {
+   "id": 3114,
+   "title": "As of April 30, 2022",
+   "description": "FINANCIAL REPORT OF OPERATIONS (FRO)",
+   "posted": "2022-05-16T23:14:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3114"
+  },
+  {
+   "id": 3113,
+   "title": "As of April 30, 2022",
+   "description": "Statement of Appropriation, Allotment, Obligation and Balances (SAAOB)",
+   "posted": "2022-05-16T23:14:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3113"
+  },
+  {
+   "id": 3112,
+   "title": "May 4 - May 23, 2022",
+   "description": "Summary of Allotment Release Order CY 2022",
+   "posted": "2022-05-27T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3112"
+  },
+  {
+   "id": 3111,
+   "title": "April 14 - May 3, 2022",
+   "description": "Summary of Allotment Release Order CY 2022",
+   "posted": "2022-05-11T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3111"
+  },
+  {
+   "id": 3110,
+   "title": "As of March 31, 2022",
+   "description": "FINANCIAL REPORT OF OPERATIONS (FRO)",
+   "posted": "2022-05-11T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3110"
+  },
+  {
+   "id": 3109,
+   "title": "As of March 31, 2022",
+   "description": "Statement of Appropriation, Allotment, Obligation and Balances (SAAOB)",
+   "posted": "2022-05-11T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3109"
+  },
+  {
+   "id": 3108,
+   "title": "March 25 - April 13, 2022",
+   "description": "Summary of Allotment Release Order CY 2022",
+   "posted": "2022-04-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3108"
+  },
+  {
+   "id": 3107,
+   "title": "20% IRA Utilization",
+   "description": "1st Quarter 2022",
+   "posted": "2022-04-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3107"
+  },
+  {
+   "id": 3105,
+   "title": "As of February 31, 2022",
+   "description": "FINANCIAL REPORT OF OPERATIONS (FRO)",
+   "posted": "2022-04-04T19:28:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3105"
+  },
+  {
+   "id": 3104,
+   "title": "As of February 31, 2022",
+   "description": "Statement of Appropriation, Allotment, Obligation and Balances (SAAOB)",
+   "posted": "2022-04-04T19:28:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3104"
+  },
+  {
+   "id": 3103,
+   "title": "As of January 31, 2022",
+   "description": "FINANCIAL REPORT OF OPERATIONS (FRO)",
+   "posted": "2022-04-04T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3103"
+  },
+  {
+   "id": 3102,
+   "title": "As of January 31, 2022",
+   "description": "Statement of Appropriation, Allotment, Obligation and Balances (SAAOB)",
+   "posted": "2022-04-04T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3102"
+  },
+  {
+   "id": 3101,
+   "title": "March 5 - March 24, 2022",
+   "description": "Summary of Allotment Release Order CY 2022",
+   "posted": "2022-04-12T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3101"
+  },
+  {
+   "id": 3099,
+   "title": "Financial Assistance",
+   "description": "Report on Fund Utilization and Status of Program/Project Implementation for the month of June 2021",
+   "posted": "2021-07-05T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3099"
+  },
+  {
+   "id": 3098,
+   "title": "February 13 - March 4, 2022",
+   "description": "Summary of Allotment Release Order CY 2022",
+   "posted": "2022-03-09T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3098"
+  },
+  {
+   "id": 3097,
+   "title": "As of December 31, 2021 (Preliminary Report)",
+   "description": "FINANCIAL REPORT OF OPERATIONS (FRO)",
+   "posted": "2022-02-14T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3097"
+  },
+  {
+   "id": 3096,
+   "title": "As of December 31, 2021 (Preliminary Report)",
+   "description": "Statement of Appropriation, Allotment, Obligation and Balances (SAAOB)",
+   "posted": "2022-02-14T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3096"
+  },
+  {
+   "id": 3095,
+   "title": "January 27 - February 12, 2022",
+   "description": "Summary of Allotment Release Order CY 2022",
+   "posted": "2022-02-28T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3095"
+  },
+  {
+   "id": 3094,
+   "title": "December 13, 2021 - December 31, 2021",
+   "description": "Summary of Allotment Release Order CY 2021",
+   "posted": "2022-02-28T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3094"
+  },
+  {
+   "id": 3093,
+   "title": "Bayanihan Grant to Cities and Municipalities",
+   "description": "Report on Fund Utilization and Status of Program/Project Implementation for the month of December 2021",
+   "posted": "2022-01-10T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3093"
+  },
+  {
+   "id": 3092,
+   "title": "Bayanihan Grant to Cities and Municipalities",
+   "description": "Report on Fund Utilization and Status of Program/Project Implementation for the month of November 2021",
+   "posted": "2021-12-10T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3092"
+  },
+  {
+   "id": 3091,
+   "title": "Bayanihan Grant to Cities and Municipalities",
+   "description": "Report on Fund Utilization and Status of Program/Project Implementation for the month of October 2021",
+   "posted": "2021-11-10T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3091"
+  },
+  {
+   "id": 3090,
+   "title": "Bayanihan Grant to Cities and Municipalities",
+   "description": "Report on Fund Utilization and Status of Program/Project Implementation for the month of September 2021",
+   "posted": "2021-10-10T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3090"
+  },
+  {
+   "id": 3089,
+   "title": "Bayanihan Grant to Cities and Municipalities",
+   "description": "Report on Fund Utilization and Status of Program/Project Implementation for the month of August 2021",
+   "posted": "2021-09-10T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3089"
+  },
+  {
+   "id": 3086,
+   "title": "December 13, 2021 - December 31, 2021",
+   "description": "Summary of Allotment Release Order CY 2021",
+   "posted": "2022-01-31T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3086"
+  },
+  {
+   "id": 3085,
+   "title": "Resolution No. 5711, Series of 2022",
+   "description": "A RESOLUTION APPROVING THE SUPPLEMENTAL ANNUAL INVESTMENT PROGRAM NO. 1 (Php 55,000,000.00) from PAGCOR",
+   "posted": "2022-01-26T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3085"
+  },
+  {
+   "id": 3084,
+   "title": "Ordinance No. 6192, Series of 2022",
+   "description": "AN ORDINANCE AUTHORIZING AND APPROVING THE PAGCOR GRANT TO PASAY CITY (Php 55,000,000.00)",
+   "posted": "2022-01-26T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3084"
+  },
+  {
+   "id": 3083,
+   "title": "November 23, 2021 - December 12, 2021",
+   "description": "Summary of Allotment Release Order CY 2021",
+   "posted": "2022-01-04T19:35:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3083"
+  },
+  {
+   "id": 2083,
+   "title": "20% IRA Utilization",
+   "description": "4th Quarter 2021",
+   "posted": "2022-01-19T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=2083"
+  },
+  {
+   "id": 2082,
+   "title": "Statement of Financial Report of Operations as of November 30,2021 Annual Executive Budget CY 2021",
+   "description": "Statement of Financial Report of Operations as of November 30,2021 Annual Executive Budget CY 2021",
+   "posted": "2021-12-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=2082"
+  },
+  {
+   "id": 2080,
+   "title": "As of November 30, 2021",
+   "description": "Statement of Appropriation, Allotment, Obligation and Balances (SAAOB)",
+   "posted": "2021-12-29T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=2080"
+  },
+  {
+   "id": 2079,
+   "title": "November 3, 2021 - November 22, 2021",
+   "description": "Summary of Allotment Release Order CY 2021",
+   "posted": "2021-12-07T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=2079"
+  },
+  {
+   "id": 2078,
+   "title": "RESO NO 5665 SERIES OF 2021",
+   "description": "A RESOLUTION AUTHORIZING AND APPROVING THE SUPPLEMENTAL ANNUAL INVESTMENT PROGRAM NO. 8",
+   "posted": "2021-12-07T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=2078"
+  },
+  {
+   "id": 2077,
+   "title": "Ordinance No. 6181, Series of 2021",
+   "description": "AN ORDINANCE AUTHORIZING AND APPROVING THE ANNUAL BUDGET OF PASAY CITY FOR FISCAL YEAR 2022",
+   "posted": "2021-12-07T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=2077"
+  },
+  {
+   "id": 2076,
+   "title": "Ordinance No. 6180, Series of 2021",
+   "description": "AN ORDINANCE AUTHORIZING AND APPROVING THE SUPPLEMENTAL BUDGET NO. 5 CY 2021- PAYMENT FOR COVID-19 HAZARD PAY CY 2021.",
+   "posted": "2021-12-07T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=2076"
+  },
+  {
+   "id": 2075,
+   "title": "",
+   "description": "Summary of Budget CY 2022 per office",
+   "posted": "2021-12-07T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=2075"
+  },
+  {
+   "id": 2074,
+   "title": "As of October 31, 2021",
+   "description": "STATEMENT OF APPROPRIATION, ALLOTMENTS, OBLIGATIONS AND BALANCES (SAAOB)",
+   "posted": "2021-11-23T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=2074"
+  },
+  {
+   "id": 2073,
+   "title": "As of October 31, 2021",
+   "description": "FINANCIAL REPORT OF OPERATIONS (FRO)",
+   "posted": "2021-11-23T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=2073"
+  },
+  {
+   "id": 2072,
+   "title": "October 14, 2021 - November 2, 2021",
+   "description": "Summary of Allotment Release Order CY 2021",
+   "posted": "2021-11-11T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=2072"
+  },
+  {
+   "id": 2071,
+   "title": "September 24, 2021 - October 13, 2021",
+   "description": "Summary of Allotment Release Order CY 2021",
+   "posted": "2021-10-22T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=2071"
+  },
+  {
+   "id": 2070,
+   "title": "",
+   "description": "A Resolution amending Sanggunian Resolution No. 5585 Series of 2021",
+   "posted": "2021-10-22T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=2070"
+  },
+  {
+   "id": 2069,
+   "title": "",
+   "description": "An Ordinance amending sections 1,2,3 and 4 of Ordinance No. 6169 Series of 2021",
+   "posted": "2021-10-22T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=2069"
+  },
+  {
+   "id": 2068,
+   "title": "",
+   "description": "Resolution No. 5515, Series of 2021, Authorizing the Supplemental Annual Investment Program No. 4",
+   "posted": "2021-06-06T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=2068"
+  },
+  {
+   "id": 2067,
+   "title": "",
+   "description": "Ordinance No. 6168, Series of 2021, Authorizing and approving Supplemental Budget No. 2 CY 2021",
+   "posted": "2021-06-06T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=2067"
+  },
+  {
+   "id": 2066,
+   "title": "As of September 30, 2021",
+   "description": "STATEMENT OF APPROPRIATION, ALLOTMENTS, OBLIGATIONS AND BALANCES (SAAOB)",
+   "posted": "2021-10-22T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=2066"
+  },
+  {
+   "id": 2065,
+   "title": "As of September 30, 2021",
+   "description": "FINANCIAL REPORT OF OPERATIONS (FRO)",
+   "posted": "2021-10-22T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=2065"
+  },
+  {
+   "id": 2064,
+   "title": "3rd Quarter CY 2021",
+   "description": "20% Component of the IRA Utilization",
+   "posted": "2021-10-20T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=2064"
+  },
+  {
+   "id": 1064,
+   "title": "September 4, 2021 - September 23, 2021",
+   "description": "Summary of Allotment Release Order CY 2021",
+   "posted": "2021-10-04T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=1064"
+  },
+  {
+   "id": 1063,
+   "title": "As of August 1-31, 2021",
+   "description": "STATEMENT OF APPROPRIATION, ALLOTMENTS, OBLIGATIONS AND BALANCES (SAAOB)",
+   "posted": "2021-09-24T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=1063"
+  },
+  {
+   "id": 1062,
+   "title": "As of August 1-31, 2021",
+   "description": "FINANCIAL REPORT OF OPERATIONS (FRO)",
+   "posted": "2021-09-24T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=1062"
+  },
+  {
+   "id": 1061,
+   "title": "August 15, 2021 - September 3, 2021",
+   "description": "Summary of Allotment Release Order CY 2021",
+   "posted": "2021-09-16T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=1061"
+  },
+  {
+   "id": 1060,
+   "title": "",
+   "description": "Bayanihan Grant to Provinces - Report on Fund Utilization and Status of Program/Project Implementation for the month of June 30, 2021",
+   "posted": "2021-07-06T20:18:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=1060"
+  },
+  {
+   "id": 1059,
+   "title": "As of July 1-31, 2021",
+   "description": "STATEMENT OF APPROPRIATION, ALLOTMENTS, OBLIGATIONS AND BALANCES (SAAOB)",
+   "posted": "2021-08-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=1059"
+  },
+  {
+   "id": 1058,
+   "title": "As of July 1-31, 2021",
+   "description": "FINANCIAL REPORT OF OPERATIONS (FRO)",
+   "posted": "2021-08-31T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=1058"
+  },
+  {
+   "id": 61,
+   "title": "",
+   "description": "Resolution No. 5584, Series of 2021, A Resolution Authorizing and Approving the Supplemental Annual Investment Program No. 6",
+   "posted": "2021-08-19T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=61"
+  },
+  {
+   "id": 60,
+   "title": "",
+   "description": "Ordinance No. 6169, Series of 2021, Authorizing and approving the reversion and reapproriation of unexpended/unobligated LDRRMF Trust Fund SAIP No. 3 CY 2021",
+   "posted": "2021-08-19T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=60"
+  },
+  {
+   "id": 59,
+   "title": "",
+   "description": "Bayanihan Grant to Cities and Municipalities - Report on Fund Utilization and Status of Program/Project Implementation for the month of July 2021",
+   "posted": "2021-08-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=59"
+  },
+  {
+   "id": 58,
+   "title": "July 26, 2021 - August 14, 2021",
+   "description": "Summary of Allotment Release Order CY 2021",
+   "posted": "2021-08-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=58"
+  },
+  {
+   "id": 57,
+   "title": "July 6, 2021 - July 25, 2021",
+   "description": "Summary of Allotment Release Order CY 2021",
+   "posted": "2021-08-03T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=57"
+  },
+  {
+   "id": 56,
+   "title": "As of JUNE 30, 2021",
+   "description": "STATEMENT OF APPROPRIATION, ALLOTMENTS, OBLIGATIONS AND BALANCES",
+   "posted": "2021-08-03T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=56"
+  },
+  {
+   "id": 55,
+   "title": "As of JUNE 30, 2021",
+   "description": "FINANCIAL REPORT OF OPERATIONS",
+   "posted": "2021-08-03T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=55"
+  },
+  {
+   "id": 54,
+   "title": "June 16, 2021 - July 5, 2021",
+   "description": "Summary of Allotment Release Order CY 2021",
+   "posted": "2021-07-14T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=54"
+  },
+  {
+   "id": 53,
+   "title": "2nd Quarter CY 2021",
+   "description": "20% Component of the IRA Utilization",
+   "posted": "2021-07-12T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=53"
+  },
+  {
+   "id": 52,
+   "title": "As of May 31, 2021",
+   "description": "STATEMENT OF APPROPRIATION, ALLOTMENTS, OBLIGATIONS AND BALANCES",
+   "posted": "2021-07-09T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=52"
+  },
+  {
+   "id": 51,
+   "title": "As of May 31, 2021",
+   "description": "FINANCIAL REPORT OF OPERATIONS",
+   "posted": "2021-07-09T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=51"
+  },
+  {
+   "id": 50,
+   "title": "May 27, 2021 - June 15, 2021",
+   "description": "Summary of Allotment Release Order CY 2021",
+   "posted": "2021-06-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=50"
+  },
+  {
+   "id": 49,
+   "title": "",
+   "description": "Bayanihan Grant to Provinces - Report on Fund Utilization and Status of Program/Project Implementation for the month of May 2021",
+   "posted": "2021-06-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=49"
+  },
+  {
+   "id": 48,
+   "title": "",
+   "description": "Resolution No. 5516, Series of 2021, Authorizing the Supplemental Annual Investment Program No. 5",
+   "posted": "2021-06-18T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=48"
+  },
+  {
+   "id": 47,
+   "title": "",
+   "description": "Ordinance No. 6167, Series of 2021, Authorizing and approving the reversion of portion of Community-Based Monitoring System",
+   "posted": "2021-06-18T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=47"
+  },
+  {
+   "id": 44,
+   "title": "May 7, 2021 - May 26, 2021",
+   "description": "Summary of Allotment Release Order CY 2021",
+   "posted": "2021-06-10T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=44"
+  },
+  {
+   "id": 43,
+   "title": "As of April 30, 2021",
+   "description": "FINANCIAL REPORT OF OPERATIONS",
+   "posted": "2021-06-08T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=43"
+  },
+  {
+   "id": 42,
+   "title": "As of April 30, 2021",
+   "description": "STATEMENT OF APPROPRIATION, ALLOTMENTS, OBLIGATIONS AND BALANCES",
+   "posted": "2021-06-08T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=42"
+  },
+  {
+   "id": 41,
+   "title": "As of December 31, 2020 POST CLOSING",
+   "description": "FINANCIAL REPORT OF OPERATIONS - Corrected",
+   "posted": "2021-06-04T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=41"
+  },
+  {
+   "id": 40,
+   "title": "As of December 31, 2020 POST CLOSING",
+   "description": "STATEMENT OF APPROPRIATION, ALLOTMENTS, OBLIGATIONS AND BALANCES - Corrected",
+   "posted": "2021-06-04T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=40"
+  },
+  {
+   "id": 39,
+   "title": "As of December 31, 2020",
+   "description": "FINANCIAL REPORT OF OPERATIONS - Corrected",
+   "posted": "2021-06-04T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=39"
+  },
+  {
+   "id": 38,
+   "title": "As of December 31, 2020",
+   "description": "STATEMENT OF APPROPRIATION, ALLOTMENTS, OBLIGATIONS AND BALANCES - Corrected",
+   "posted": "2021-06-04T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=38"
+  },
+  {
+   "id": 37,
+   "title": "As of December 31, 2020 PRE CLOSING",
+   "description": "FINANCIAL REPORT OF OPERATIONS - Corrected",
+   "posted": "2021-06-04T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=37"
+  },
+  {
+   "id": 36,
+   "title": "As of December 31, 2020 PRE CLOSING",
+   "description": "STATEMENT OF APPROPRIATION, ALLOTMENTS, OBLIGATIONS AND BALANCES - Corrected",
+   "posted": "2021-06-04T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=36"
+  },
+  {
+   "id": 35,
+   "title": "As of March 31, 2021",
+   "description": "Local Govt Support Fund - Report on Fund Utilization",
+   "posted": "2021-04-07T23:52:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=35"
+  },
+  {
+   "id": 34,
+   "title": "April 17, 2021 - May 6, 2021",
+   "description": "Summary of Allotment Release Order CY 2021",
+   "posted": "2021-05-24T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=34"
+  },
+  {
+   "id": 33,
+   "title": "",
+   "description": "Bayanihan Grant to Provinces - Report on Fund Utilization and Status of Program/Project Implementation for the month of April 2021",
+   "posted": "2021-05-06T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=33"
+  },
+  {
+   "id": 32,
+   "title": "",
+   "description": "Bayanihan Grant to Provinces - Report on Fund Utilization and Status of Program/Project Implementation for the month of March 2021",
+   "posted": "2021-04-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=32"
+  },
+  {
+   "id": 31,
+   "title": "",
+   "description": "Bayanihan Grant to Provinces - Report on Fund Utilization and Status of Program/Project Implementation for the month of January 2021",
+   "posted": "2021-03-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=31"
+  },
+  {
+   "id": 30,
+   "title": "",
+   "description": "Bayanihan Grant to Provinces - Report on Fund Utilization and Status of Program/Project Implementation for the month of February 2021",
+   "posted": "2021-03-25T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=30"
+  },
+  {
+   "id": 29,
+   "title": "March 28, 2021 - April 16, 2021",
+   "description": "Summary of Allotment Release Order CY 2021",
+   "posted": "2021-05-14T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=29"
+  },
+  {
+   "id": 28,
+   "title": "",
+   "description": "Bayanihan Grant to Provinces - Report on Fund Utilization and Status of Program/Project Implementation for the month of November 30, 2020",
+   "posted": "2020-12-07T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=28"
+  },
+  {
+   "id": 27,
+   "title": "",
+   "description": "Bayanihan Grant to Provinces - Report on Fund Utilization and Status of Program/Project Implementation for the month of October 31, 2020",
+   "posted": "2020-11-04T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=27"
+  },
+  {
+   "id": 26,
+   "title": "",
+   "description": "Bayanihan Grant to Provinces - Report on Fund Utilization and Status of Program/Project Implementation for the month of September 30, 2020",
+   "posted": "2020-10-02T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=26"
+  },
+  {
+   "id": 25,
+   "title": "",
+   "description": "Bayanihan Grant to Provinces - Report on Fund Utilization and Status of Program/Project Implementation for the month of August 31, 2020",
+   "posted": "2020-09-02T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=25"
+  },
+  {
+   "id": 24,
+   "title": "",
+   "description": "Bayanihan Grant to Provinces - Report on Fund Utilization and Status of Program/Project Implementation for the month of July 31, 2020",
+   "posted": "2020-08-03T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=24"
+  },
+  {
+   "id": 23,
+   "title": "",
+   "description": "Bayanihan Grant to Provinces - Report on Fund Utilization and Status of Program/Project Implementation for the month of June 30, 2020",
+   "posted": "2020-07-02T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=23"
+  },
+  {
+   "id": 22,
+   "title": "",
+   "description": "Bayanihan Grant to Provinces - Report on Fund Utilization and Status of Program/Project Implementation for the month of May 31, 2020",
+   "posted": "2020-06-02T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=22"
+  },
+  {
+   "id": 21,
+   "title": "December 11, 2021 - December 31, 2021 - Updated",
+   "description": "Summary of Allotment Release Order CY 2021 - Updated",
+   "posted": "2021-05-06T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=21"
+  },
+  {
+   "id": 20,
+   "title": "As of December 31, 2020 POST CLOSING",
+   "description": "FINANCIAL REPORT OF OPERATIONS",
+   "posted": "2021-05-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=20"
+  },
+  {
+   "id": 19,
+   "title": "As of December 31, 2020 POST CLOSING",
+   "description": "STATEMENT OF APPROPRIATION, ALLOTMENTS, OBLIGATIONS AND BALANCES",
+   "posted": "2021-05-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=19"
+  },
+  {
+   "id": 18,
+   "title": "As of December 31, 2020",
+   "description": "FINANCIAL REPORT OF OPERATIONS",
+   "posted": "2021-05-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=18"
+  },
+  {
+   "id": 17,
+   "title": "As of December 31, 2020",
+   "description": "STATEMENT OF APPROPRIATION, ALLOTMENTS, OBLIGATIONS AND BALANCES",
+   "posted": "2021-05-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=17"
+  },
+  {
+   "id": 16,
+   "title": "As of December 31, 2020 PRE CLOSING",
+   "description": "FINANCIAL REPORT OF OPERATIONS",
+   "posted": "2021-05-06T18:41:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=16"
+  },
+  {
+   "id": 15,
+   "title": "As of December 31, 2020 PRE CLOSING",
+   "description": "STATEMENT OF APPROPRIATION, ALLOTMENTS, OBLIGATIONS AND BALANCES",
+   "posted": "2021-05-07T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=15"
+  },
+  {
+   "id": 14,
+   "title": "March 8, 2021 - March 27, 2021",
+   "description": "Summary of Allotment Release Order CY 2021",
+   "posted": "2021-04-12T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=14"
+  },
+  {
+   "id": 13,
+   "title": "February 16, 2021 - March 7, 2021",
+   "description": "Summary of Allotment Release Order CY 2021",
+   "posted": "2021-03-24T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=13"
+  },
+  {
+   "id": 12,
+   "title": "As of March 31, 2021",
+   "description": "FINANCIAL REPORT OF OPERATIONS",
+   "posted": "2021-04-19T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=12"
+  },
+  {
+   "id": 11,
+   "title": "As of March 31, 2021",
+   "description": "STATEMENT OF APPROPRIATION, ALLOTMENTS, OBLIGATIONS AND BALANCES",
+   "posted": "2021-04-19T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=11"
+  },
+  {
+   "id": 10,
+   "title": "As of February 29, 2021",
+   "description": "FINANCIAL REPORT OF OPERATION",
+   "posted": "2021-04-19T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=10"
+  },
+  {
+   "id": 9,
+   "title": "As of February 29, 2021",
+   "description": "STATEMENT OF APPROPRIATION, ALLOTMENTS, OBLIGATIONS AND BALANCES",
+   "posted": "2021-04-19T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=9"
+  },
+  {
+   "id": 8,
+   "title": "As of January 31, 2021",
+   "description": "FINANCIAL REPORT OF OPERATIONS",
+   "posted": "2021-04-19T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=8"
+  },
+  {
+   "id": 7,
+   "title": "As of January 31, 2021",
+   "description": "STATEMENT OF APPROPRIATION, ALLOTMENTS, OBLIGATIONS AND BALANCES",
+   "posted": "2021-04-19T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=7"
+  },
+  {
+   "id": 6,
+   "title": "",
+   "description": "Bayanihan Grant to Provinces - Report on Fund Utilization and Status of Program/Project Implementation for the month of December 30, 2020",
+   "posted": "2021-03-23T07:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=6"
+  },
+  {
+   "id": 5,
+   "title": "",
+   "description": "Resolution No. 5327, Series of 2021, Authorizing the Supplemental Annual Investment Program No. I",
+   "posted": "2021-03-12T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=5"
+  },
+  {
+   "id": 4,
+   "title": "",
+   "description": "Ordinance No. 6160, Series of 2021, Authorizing and approving the reversion to the General Fund of several PPAs from the implemented Programs/Projects",
+   "posted": "2021-03-12T08:00:00.000Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=4"
+  },
+  {
+   "id": 3,
+   "title": "",
+   "description": "Summary of Allotment Release Order CY 2021 (December 11, 2021 - December 31, 2021)",
+   "posted": "2021-04-08T00:59:09.650Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=3"
+  },
+  {
+   "id": 2,
+   "title": "",
+   "description": "Summary of Allotment Release Order CY 2021 (January 27, 2021 - February 15, 2021)",
+   "posted": "2021-04-08T00:47:31.130Z",
+   "file_endpoint": "https://www.pasay.gov.ph/GeneralInfo/GetBudgetImages?imgId=2"
+  }
+ ]
+}

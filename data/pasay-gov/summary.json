@@ -1,0 +1,213 @@
+{
+  "source": "https://pasay.gov.ph/transparency/",
+  "generated_at": "2026-11-09T05:18:12.314Z",
+  "totals": {
+    "entries": 5132,
+    "with_documents": 779,
+    "document_urls": 1525,
+    "unlinked_media_pdfs": 132,
+    "on_no_listing_page": 11
+  },
+  "by_collection": {
+    "bac-entries": {
+      "entries": 657,
+      "with_documents": 657
+    },
+    "bulletin-entries": {
+      "entries": 4418,
+      "with_documents": 74
+    },
+    "downloadable-forms": {
+      "entries": 9,
+      "with_documents": 1
+    },
+    "reports-budget": {
+      "entries": 28,
+      "with_documents": 28
+    },
+    "reports-fdpentry": {
+      "entries": 7,
+      "with_documents": 6
+    },
+    "reports-procurements": {
+      "entries": 13,
+      "with_documents": 13
+    }
+  },
+  "bulletin": {
+    "by_year": {
+      "2020": {
+        "entries": 14,
+        "with_documents": 0
+      },
+      "2021": {
+        "entries": 510,
+        "with_documents": 0
+      },
+      "2022": {
+        "entries": 741,
+        "with_documents": 0
+      },
+      "2023": {
+        "entries": 1038,
+        "with_documents": 0
+      },
+      "2024": {
+        "entries": 1090,
+        "with_documents": 2
+      },
+      "2025": {
+        "entries": 965,
+        "with_documents": 14
+      },
+      "2026": {
+        "entries": 60,
+        "with_documents": 58
+      }
+    },
+    "by_category": {
+      "(none)": {
+        "entries": 3,
+        "with_documents": 3
+      },
+      "Annual Investment Plan": {
+        "entries": 1,
+        "with_documents": 0
+      },
+      "APP": {
+        "entries": 1,
+        "with_documents": 0
+      },
+      "Budget": {
+        "entries": 301,
+        "with_documents": 1
+      },
+      "Cash Flow": {
+        "entries": 16,
+        "with_documents": 0
+      },
+      "Gender and Development": {
+        "entries": 2,
+        "with_documents": 0
+      },
+      "Invitation to Bid": {
+        "entries": 37,
+        "with_documents": 37
+      },
+      "NOA, NTP, RESO, PO-CA": {
+        "entries": 2706,
+        "with_documents": 33
+      },
+      "Procurment Monitoring Report": {
+        "entries": 62,
+        "with_documents": 0
+      },
+      "Request For Quotation": {
+        "entries": 1232,
+        "with_documents": 0
+      },
+      "Vacant Positions": {
+        "entries": 57,
+        "with_documents": 0
+      }
+    }
+  },
+  "bids_and_awards": {
+    "by_year": {
+      "2025": {
+        "entries": 72,
+        "with_documents": 72
+      },
+      "2026": {
+        "entries": 585,
+        "with_documents": 585
+      }
+    },
+    "by_type": {
+      "(none)": {
+        "entries": 5,
+        "with_documents": 5
+      },
+      "Bid Bulletin": {
+        "entries": 38,
+        "with_documents": 38
+      },
+      "Early Procurement Activities (EPA)": {
+        "entries": 3,
+        "with_documents": 3
+      },
+      "Invitation to Bid (ITB)": {
+        "entries": 544,
+        "with_documents": 544
+      },
+      "Negotiated Procurement - Two Failed Biddings (NP)": {
+        "entries": 1,
+        "with_documents": 1
+      },
+      "Request for expression of interest (REI)": {
+        "entries": 7,
+        "with_documents": 7
+      },
+      "Small Value Procurement (SVP)": {
+        "entries": 59,
+        "with_documents": 59
+      }
+    },
+    "by_area": {
+      "(none)": {
+        "entries": 3,
+        "with_documents": 3
+      },
+      "Consulting": {
+        "entries": 13,
+        "with_documents": 13
+      },
+      "Goods and Services": {
+        "entries": 419,
+        "with_documents": 419
+      },
+      "Infrastructure": {
+        "entries": 220,
+        "with_documents": 220
+      },
+      "Public Auction": {
+        "entries": 2,
+        "with_documents": 2
+      }
+    }
+  },
+  "findings": {
+    "checked": "2026-11-09",
+    "findings": [
+      {
+        "id": "bulletin-files-not-migrated",
+        "question": "Why do most bulletin entries (2020-2025) have no documents?",
+        "conclusion": "The documents existed. The old pasay.gov.ph (an ASP.NET site, replaced by WordPress in late 2025/2026) attached a file to each bulletin entry and served it from its database. The new site imported the entries as text and did not migrate the files. The old file endpoints now redirect to the new site, so the files are no longer downloadable from pasay.gov.ph.",
+        "status": "confirmed",
+        "evidence": [
+          "Pre-2026 bulletin entries on the new site hold a title only: no content, no attachment, and an empty document slot on the listing page (e.g. post 14382, RFQ21-04-016).",
+          "They were bulk-imported: created and modified at exactly 00:00:00 on the posting date, post ids 13955-19180 sit next to 2026 posts (18375+), and some descriptions end in CSV residue such as \",12/9/2024\".",
+          "The WordPress media library holds 0 files uploaded before 2026-01-01; 1,510 of the 1,525 linked documents are in uploads/2026/.",
+          "The old site's Bulletin page (Wayback, 2023-02 to 2025-11) had the same categories and a PDF viewer under its table; its script (Scripts/userdefine/jsMainMenu_2.js) loaded each row's file from /GeneralInfo/Get<Category>Images?imgId=<Id> and showed it when result.ext was \"pdf\".",
+          "The Wayback Machine captured the old lists on 2022-06-18 (1,267 records, saved in legacy-2022/) but not the files: crawlers do not click rows, and the one capture of a file endpoint, without an imgId, returned {\"data\":\"\"}.",
+          "Today /GeneralInfo/GetListOfBudget and /GeneralInfo/GetBudgetImages?imgId=1 answer 301 (redirect to the new site)."
+        ],
+        "recovery": [
+          "Ask the City of Pasay for the files under Freedom of Information, citing the old record ids in legacy-2022/ (e.g. Budget id 3114, FRO as of April 30, 2022).",
+          "FROs, SAAOBs and 20% IRA utilization reports may be on DBM's Full Disclosure Policy portal; COA annual audit reports cover each year's finances.",
+          "About 100 PDFs from an earlier site (2011-2017: budgets, SAAOBs, financial reports, FDP reports, APPs, cash flows under /images/) are still in the Wayback Machine as plain files."
+        ]
+      },
+      {
+        "id": "earlier-site-files",
+        "question": "Did the city publish budget documents before 2020?",
+        "conclusion": "Yes. An earlier site served them as plain files under /images/Bids&Awards/Budget/ and /images/fdp/; those URLs now return 404, but the Wayback Machine archived some.",
+        "status": "confirmed",
+        "evidence": [
+          "Wayback holds 28 PDFs under /images/Bids&Awards/Budget/ (annual budgets 2011, 2012, 2016; SAAOB/SAOB 2012-2017; financial reports 2016-2017), 47 under /images/fdp/2015-2016, 16 APPs and 7 cash flows.",
+          "http://pasay.gov.ph/images/Bids&Awards/Budget/budget-2016.pdf and .../saaob-01-2017.pdf return 404 today."
+        ]
+      }
+    ]
+  }
+}

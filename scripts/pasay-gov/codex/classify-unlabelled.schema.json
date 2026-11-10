@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["documents"],
+  "properties": {
+    "documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["file", "type", "title_line", "title_page", "contains", "bid_id", "source", "note"],
+        "properties": {
+          "file": { "type": "string" },
+          "type": { "$ref": "#/$defs/type" },
+          "title_line": { "type": "string" },
+          "title_page": { "type": "integer" },
+          "contains": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["type", "page"],
+              "properties": { "type": { "$ref": "#/$defs/type" }, "page": { "type": "integer" } }
+            }
+          },
+          "bid_id": { "type": "string" },
+          "source": { "type": "string", "enum": ["ocr", "red", "manual", "pdf"] },
+          "note": { "type": "string" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "type": {
+      "type": "string",
+      "enum": [
+        "bid-invitation", "request-for-quotation", "request-for-expression-of-interest", "bid-bulletin",
+        "notice-of-postponement", "bac-resolution", "notice-of-award", "contract-purchase-order",
+        "notice-to-proceed", "bidding-documents"
+      ]
+    }
+  }
+}
