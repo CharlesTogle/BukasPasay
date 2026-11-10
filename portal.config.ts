@@ -10,7 +10,7 @@ export default defineConfig({
   kind: 'city',
   name: 'Pasay City',
   shortName: 'Bukas Pasay',
-  operator: { name: 'Bukas Pasay', url: 'https://bukas-pasay.6digits.dev' },
+  operator: { name: 'Charles Togle', url: 'https://github.com/CharlesTogle' },
   siteUrl: 'https://bukas-pasay.6digits.dev',
   scope: {
     // No DPWH office in scope. The FY2027 documents list Pasay's lines under
